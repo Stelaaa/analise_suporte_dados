@@ -20,16 +20,24 @@ Em cada etapa há um **número para conferir**. Se o seu painel mostrar o mesmo 
 1. Abra a [página do Power BI Desktop na Microsoft Store](https://aka.ms/pbidesktopstore) e clique em **Obter / Instalar**.
 2. Abra o programa. Se aparecer uma tela pedindo para entrar, feche-a: não precisa de conta para montar o painel.
 
-## Etapa 2 · Ajustar a localidade (faça antes de importar)
+## Etapa 2 · Conferir o padrão Português (Brasil)
 
-Os CSVs usam **ponto** como separador decimal (`12.5`). Num Power BI em português, sem esse ajuste, `12.5` vira `125`.
+Os arquivos de `powerbi/dados/` já estão no **padrão brasileiro**, o mesmo do Power BI em português:
+
+| Item | Formato nos arquivos |
+|---|---|
+| Separador de colunas | ponto e vírgula (`;`) |
+| Separador decimal | vírgula (`12,5`) |
+| Datas | `dd/mm/aaaa` (`01/07/2026`) e `dd/mm/aaaa hh:mm` |
+| Acentos | UTF-8 |
+
+Você não precisa mudar nada, só confirmar:
 
 1. **Arquivo → Opções e configurações → Opções**.
 2. Na coluna da esquerda, em **ARQUIVO ATUAL**, clique em **Configurações regionais**.
-3. Em **Localidade para importação**, escolha **Inglês (Estados Unidos)**.
-4. Clique em **OK**.
+3. **Localidade para importação** deve estar em **Português (Brasil)**, que é o padrão. Clique em **OK**.
 
-> Se mais tarde uma fórmula DAX der erro de sintaxe, vá em **GLOBAL → Configurações regionais** e marque a opção de usar os separadores padrão do DAX (vírgula). As fórmulas deste guia usam vírgula.
+> **Sobre as fórmulas DAX:** mesmo com o Power BI em português, o padrão do DAX é usar **vírgula** para separar os argumentos das funções, por exemplo `CALCULATE ( [Chamados], fChamados[status] <> "Resolvido" )`. As fórmulas deste guia já seguem esse padrão. Só se você tiver ativado a opção de **separadores locais** em **GLOBAL → Configurações regionais** é que o Power BI passa a pedir **ponto e vírgula**. Nesse caso, troque `,` por `;` nas fórmulas.
 
 ## Etapa 3 · Importar os 9 arquivos
 
@@ -37,7 +45,7 @@ Repita para cada arquivo de `powerbi/dados/`:
 
 1. **Página Inicial → Obter dados → Texto/CSV**.
 2. Selecione o arquivo e clique em **Abrir**.
-3. Na prévia, confira se a **Origem do Arquivo** está como **65001: Unicode (UTF-8)**, para os acentos aparecerem certos.
+3. Na prévia, confira: **Origem do Arquivo** = **65001: Unicode (UTF-8)** e **Delimitador** = **Ponto e vírgula**. As colunas devem aparecer separadas, com acentos e números com vírgula (`13,4`).
 4. Clique em **Carregar**.
 
 | Arquivo | Linhas esperadas |
@@ -279,9 +287,10 @@ A opção vem desligada. Como administradora da sua conta de teste, você mesma 
 
 | Sintoma | Causa provável | Solução |
 |---|---|---|
-| `TMR (h)` deu 134 em vez de 13,4 | localidade da Etapa 2 | refaça a Etapa 2 e, em Transformar dados, clique em **Atualizar visualização** |
+| `TMR (h)` deu 134 em vez de 13,4, ou as datas viraram texto | a localidade de importação não está em Português (Brasil) | refaça a Etapa 2 e, em Transformar dados, clique em **Atualizar visualização** |
+| Todas as colunas vieram juntas numa só | delimitador errado | na prévia da importação, escolha **Delimitador: Ponto e vírgula** |
 | Acentos viraram `Ã§` | codificação do arquivo | na importação, escolha **65001: Unicode (UTF-8)** |
 | Cartão mostra o mesmo número em qualquer filtro | relacionamento faltando | revise a tabela da Etapa 4 |
-| Erro "a sintaxe para ',' está incorreta" | separador do DAX | nota da Etapa 2 ou troque `,` por `;` |
+| Erro "a sintaxe para ',' está incorreta" | a opção de separadores locais do DAX está ativada | troque `,` por `;` nas fórmulas (nota da Etapa 2) |
 | A opção "Publicar na Web" não aparece | configuração de locatário desligada | Etapa 9.3 e espere alguns minutos |
 | "Entre em contato com o administrador para habilitar a criação de código" | idem | Etapa 9.3 |

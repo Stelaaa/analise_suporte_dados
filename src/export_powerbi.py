@@ -5,9 +5,10 @@ limpos em powerbi/dados/. Rode depois do pipeline:
     python src/pipeline.py
     python src/export_powerbi.py
 
-Os arquivos usam vírgula como separador e ponto como decimal (padrão
-en-US). No Power BI, ajuste a localidade de importação — ver
-docs/guia_powerbi.md, passo 2.
+Os arquivos seguem o padrão Português (Brasil), o mesmo do Power BI em
+português: ponto e vírgula como separador de colunas, vírgula como
+decimal e datas no formato dd/mm/aaaa. Assim o Power BI importa sem
+nenhuma mudança de localidade.
 """
 from __future__ import annotations
 
@@ -70,6 +71,26 @@ def calendario() -> pd.DataFrame:
     return df
 
 
+COLUNAS_DATA = {"data", "data_adesao"}
+COLUNAS_DATA_HORA = {"data_abertura", "data_primeira_resposta", "data_resolucao"}
+
+
+def para_ptbr(df: pd.DataFrame) -> pd.DataFrame:
+    """Converte datas ISO (aaaa-mm-dd) para dd/mm/aaaa."""
+    df = df.copy()
+    for col in df.columns:
+        if col in COLUNAS_DATA:
+            df[col] = pd.to_datetime(df[col]).dt.strftime("%d/%m/%Y")
+        elif col in COLUNAS_DATA_HORA:
+            df[col] = pd.to_datetime(df[col]).dt.strftime("%d/%m/%Y %H:%M")
+    return df
+
+
+def salvar(df: pd.DataFrame, nome: str) -> None:
+    para_ptbr(df).to_csv(OUT / f"{nome}.csv", index=False, sep=";", decimal=",",
+                         encoding="utf-8-sig")
+
+
 def main() -> None:
     if not DB.exists():
         raise SystemExit("Rode antes: python src/pipeline.py")
@@ -80,10 +101,10 @@ def main() -> None:
         for col in ("resp_no_prazo", "res_no_prazo", "semana_campanha", "venda_valida"):
             if col in df.columns:
                 df[col] = df[col].astype("Int64")
-        df.to_csv(OUT / f"{nome}.csv", index=False, encoding="utf-8")
+        salvar(df, nome)
         print(f"  {nome:<16} {len(df):>6} linhas")
     cal = calendario()
-    cal.to_csv(OUT / "dCalendario.csv", index=False, encoding="utf-8")
+    salvar(cal, "dCalendario")
     print(f"  {'dCalendario':<16} {len(cal):>6} linhas")
     con.close()
 
