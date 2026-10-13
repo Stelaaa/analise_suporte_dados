@@ -1,6 +1,7 @@
 # Comunicado ao cliente · Conferência da apuração Q3/2026
 
-Modelo de e-mail para o gestor da conta da Distribuidora Horizonte (fictícia). O objetivo é explicar a divergência sem jargão técnico, mostrar o impacto e pedir só o que depende do cliente.
+Modelo de e-mail para o gestor da conta da XXXXX (fictícia). 
+Para explicar a divergência sem jargão técnico, mostrar o impacto e pedir só o que depende do cliente.
 
 ---
 

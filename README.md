@@ -167,11 +167,12 @@ python src/pipeline.py           # carrega, valida, apura, mede SLA e gera repor
 python -m pytest tests -q        # confere as regras contra o gabarito
 ```
 
-Usa SQLite (vem com o Python), então não precisa instalar banco. Para SQL Server ou PostgreSQL, veja [docs/adaptacao_sql.md](docs/adaptacao_sql.md).
+Usa SQLite (vem com o Python), então não precisa instalar banco. Para abrir no **DBeaver** ou no **HeidiSQL** sem Python, use o banco pronto [`banco/case_suporte.db`](banco/case_suporte.db) e rode os scripts de `sql/` na ordem. Passo a passo e adaptação para MySQL, SQL Server e PostgreSQL em [docs/adaptacao_sql.md](docs/adaptacao_sql.md).
 
 ## Estrutura
 
 ```
+├── banco/case_suporte.db       # banco SQLite pronto para DBeaver / HeidiSQL
 ├── data/
 │   ├── generate_data.py        # base fictícia + gabarito das inconsistências
 │   └── raw/                    # CSVs: campanha, participantes, metas, produtos, vendas, resgates, chamados
@@ -183,6 +184,7 @@ Usa SQLite (vem com o Python), então não precisa instalar banco. Para SQL Serv
 │   ├── 05_chamados_sla.sql     # SLA, backlog, reabertura
 │   └── 06_recorrencia.sql      # duplicatas × chamados, Pareto
 ├── src/
+│   ├── criar_banco.py          # cria banco/case_suporte.db a partir dos CSVs
 │   ├── pipeline.py             # orquestra tudo e gera os relatórios
 │   └── export_powerbi.py       # exporta as tabelas do modelo Power BI
 ├── powerbi/
