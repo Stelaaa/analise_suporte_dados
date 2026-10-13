@@ -1,6 +1,6 @@
 # Matriz de SLA
 
-Parâmetros em `sql/01_parametros.sql` (tabela `par_sla`).
+Parâmetros em `src/sql_preparacao/01_parametros.sql` (tabela `par_sla`).
 
 | Prioridade | Critério | 1ª resposta | Resolução | Exemplo |
 |---|---|---:|---:|---|

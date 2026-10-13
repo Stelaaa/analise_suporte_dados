@@ -41,7 +41,7 @@ Para qualquer chamado que envolva número, a resposta deve trazer a **evidência
 3. Faixa e pontos calculados.
 4. Resgates e saldo.
 
-Consultas prontas: `sql/02_qualidade_dados.sql` (`dq_ocorrencias` filtrando por matrícula) e `sql/03_apuracao.sql` (`apuracao`).
+Consultas prontas: `src/sql_preparacao/02_qualidade_dados.sql` (`dq_ocorrencias` filtrando por matrícula) e `src/sql_preparacao/03_apuracao.sql` (`apuracao`).
 
 ## 4. Escalonamento
 

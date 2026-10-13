@@ -17,6 +17,7 @@ dParticipante ── fApuracao
       ├── fResgates
       └── fOcorrenciasDQ
 ```
+![[Pasted image 20261013165842.png]]
 
 | Tabela         | Origem                                                                              | Grão                      |
 | -------------- | ----------------------------------------------------------------------------------- | ------------------------- |
@@ -79,15 +80,14 @@ CALCULATE ( [Chamados], DATEADD ( dCalendario[Data], -7, DAY ) )
 
 Variação Semanal % = DIVIDE ( [Chamados] - [Chamados Semana Anterior], [Chamados Semana Anterior] )
 ```
-
+![[Pasted image 20261013165902.png]]
 ## Páginas
 
 | Página                       | Para quem           | Visuais                                                                                                                                       |
 | ---------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1 · Visão geral da fila      | gestão do Suporte   | cartões (Chamados, Backlog, % SLA Resolução, % SLA 1ª Resposta, TMR, % Reabertura) · linha semanal de chamados · barras de SLA por prioridade |
 | 2 · Categorias e recorrência | Suporte & Dados     | Pareto (colunas + linha acumulada) · matriz categoria × semana com formatação condicional · barras de reabertura                              |
-| 3 · Qualidade da base        | Negócio / Campanhas | barras por regra de qualidade · tabela de ocorrências com filtro por lote e matrícula · cartão Faturamento Inflado                            |
-| 4 · Apuração                 | Campanhas / cliente | distribuição por faixa · pontos por regional · tabela por participante com drill-through para o extrato de vendas                             |
+
 
 ## Boas práticas aplicadas
 

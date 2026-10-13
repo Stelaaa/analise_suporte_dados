@@ -1,7 +1,7 @@
 # Proposta de melhoria · Pontuação divergente
 
 **Contexto:** campanha Desafio Trimestral Q3/2026 · análise de 640 chamados e 9.999 vendas importadas
-**Fontes:** `sql/06_recorrencia.sql`, `reports/indicadores_suporte.xlsx` (abas Pareto e Recorrência)
+**Fontes:** `sql/04_recorrencia_pontuacao_x_duplicadas.sql`, `reports/indicadores_suporte.xlsx` (abas Pareto e Recorrência)
 
 ## 1. O problema, em números
 

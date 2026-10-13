@@ -2,8 +2,8 @@
 Cria banco/case_suporte.db (SQLite) com as tabelas de origem stg_* carregadas
 a partir de data/raw/*.csv. Usa só a biblioteca padrão do Python.
 
-Depois de criado, o banco pode ser aberto no DBeaver ou no HeidiSQL e os
-scripts de sql/01 a sql/06 podem ser executados na ordem.
+Depois de criado, o banco pode ser aberto no DBeaver ou no HeidiSQL e as
+consultas de sql/ (somente leitura) reproduzem os números do painel.
 Ver docs/adaptacao_sql.md.
 
 Uso:  python src/criar_banco.py

@@ -75,15 +75,15 @@ De onde vêm os picos das semanas 5 e 9.
 
 **Pareto de categorias:**
 
-| Categoria | Chamados | % acumulado |
-|---|---:|---:|
-| Pontuação divergente | 207 | 32,3% |
-| Acesso / login | 103 | 48,4% |
-| Resgate não creditado | 98 | 63,8% |
-| Dúvida de regulamento | 89 | 77,7% |
-| Relatório / dashboard | 51 | 85,6% |
-| Importação de base | 47 | 93,0% |
-| Cadastro de participante | 45 | 100,0% |
+| Categoria                | Chamados | % acumulado |
+| ------------------------ | -------: | ----------: |
+| Pontuação divergente     |      207 |       32,3% |
+| Acesso / login           |      103 |       48,4% |
+| Resgate não creditado    |       98 |       63,8% |
+| Dúvida de regulamento    |       89 |       77,7% |
+| Relatório / dashboard    |       51 |       85,6% |
+| Importação de base       |       47 |       93,0% |
+| Cadastro de participante |       45 |      100,0% |
 
 "Pontuação divergente" sozinha é **1/3 da fila**, e 4 das 7 categorias somam cerca de 78% do volume.
 
@@ -102,7 +102,7 @@ Análise completa, com 5 porquês e plano de ação: [docs/proposta_melhoria.md]
 ## Como foi construído
 
 1. **Dados:** base fictícia de vendas e chamados gerada por script python ([`data/generate_data.py`](data/generate_data.py)).
-2. **SQL:** identificação das vendas duplicadas e cálculo dos indicadores da fila ([`sql/`](sql/)). A duplicidade é encontrada com uma função de janela:
+2. **SQL:** consultas somente leitura que chegam nos mesmos números do painel ([`sql/`](sql/), ver tabela abaixo). A duplicidade, por exemplo, é encontrada com uma função de janela:
 
 ```sql
 SELECT id_venda, matricula, lote_importacao
@@ -117,10 +117,23 @@ WHERE rn > 1;   -- 944 vendas duplicadas
 
 3. **Power BI:** modelo estrela (tabelas de fatos e dimensões ligadas pelo calendário, prioridade e participante) e medidas DAX para os indicadores do painel: Chamados, Backlog, TMR, % Reabertura, % SLA de resolução, % SLA de 1ª resposta, Chamados de pontuação, Vendas duplicadas e Pareto acumulado. Detalhes em [docs/powerbi_modelo.md](docs/powerbi_modelo.md).
 
+## Mesmo resultado no SQL e no Power BI
+
+Cada visual do painel tem uma consulta SQL equivalente em [`sql/`](sql/). As consultas só leem as tabelas originais (`SELECT`), sem criar ou alterar nada, e chegam exatamente nos mesmos números.
+
+| Visual do painel | Consulta SQL | Resultado |
+|---|---|---|
+| Cartões da Visão geral | [`01_visao_geral_indicadores.sql`](sql/01_visao_geral_indicadores.sql) | 640 · 52 · 13,4 h · 7,8% · 73,3% · 66,4% |
+| Chamados por semana | [`02_chamados_por_semana.sql`](sql/02_chamados_por_semana.sql) | 90 na semana 5 e 91 na semana 9 |
+| SLA por prioridade | [`03_sla_por_prioridade.sql`](sql/03_sla_por_prioridade.sql) | Crítica: 29,0% de 1ª resposta no prazo |
+| Chamados de pontuação × vendas duplicadas | [`04_recorrencia_pontuacao_x_duplicadas.sql`](sql/04_recorrencia_pontuacao_x_duplicadas.sql) | 60 / 696 na semana 5 · 59 / 248 na semana 9 |
+| Mapa de calor | [`05_mapa_calor_categoria_semana.sql`](sql/05_mapa_calor_categoria_semana.sql) | Pontuação divergente: 60 e 59, total 207 |
+| Pareto | [`06_pareto_categorias.sql`](sql/06_pareto_categorias.sql) | 32,3% · 48,4% · 63,8% · 77,7% … |
+
 ## Como abrir
 
 - **Só ver o painel:** abra o [PDF](powerbi/painel_suporte_dados.pdf) ou o [`.pbix`](powerbi/painel_suporte_dados.pbix) no Power BI Desktop.
-- **Explorar os dados no DBeaver ou no HeidiSQL:** abra o banco pronto [`banco/case_suporte.db`](banco/case_suporte.db) e rode os scripts de `sql/` na ordem. Passo a passo em [docs/adaptacao_sql.md](docs/adaptacao_sql.md), com adaptação para MySQL, SQL Server e PostgreSQL.
+- **Explorar os dados no DBeaver ou no HeidiSQL:** abra o banco pronto [`banco/case_suporte.db`](banco/case_suporte.db) e rode qualquer consulta de `sql/`. Passo a passo em [docs/adaptacao_sql.md](docs/adaptacao_sql.md), com adaptação para MySQL, SQL Server e PostgreSQL.
 - **Recriar tudo com Python:**
 
 ```bash
@@ -137,9 +150,9 @@ python src/pipeline.py           # calcula os indicadores e gera powerbi/dados/
 │   ├── painel_suporte_dados.pdf    # painel em PDF
 │   └── dados/                      # tabelas do modelo (CSV, padrão pt-BR)
 ├── banco/case_suporte.db           # banco SQLite para DBeaver / HeidiSQL
-├── sql/                            # scripts SQL (duplicidade, SLA, recorrência)
+├── sql/                            # consultas SQL (somente leitura) que reproduzem o painel
 ├── data/                           # gerador e base fictícia (CSV)
-├── src/                            # pipeline em Python
+├── src/                            # pipeline em Python e scripts de preparação (src/sql_preparacao/)
 ├── reports/img/                    # imagens do README
 └── docs/
     ├── proposta_melhoria.md        # causa raiz e plano de ação

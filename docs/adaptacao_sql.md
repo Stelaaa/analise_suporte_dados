@@ -26,7 +26,7 @@ Para recriar o banco a partir dos CSVs: `python src/criar_banco.py`.
 4. Se o DBeaver pedir para **baixar o driver**, clique em **Download**.
 5. **Concluir**. As tabelas `stg_*` aparecem em **Tabelas**.
 
-**Executar os scripts:** abra `sql/01_parametros.sql` (**Arquivo → Abrir arquivo**), associe à conexão do case e use **Executar script** (`Alt + X`). Repita de `01` a `06`, **na ordem**.
+**Rodar uma consulta:** **Arquivo → Abrir arquivo** → escolha uma consulta de `sql/` (por exemplo `01_visao_geral_indicadores.sql`) → associe à conexão do case → **Executar** (`Ctrl + Enter`). O resultado aparece na grade embaixo.
 
 ## 3. Abrir no HeidiSQL
 
@@ -35,34 +35,24 @@ Para recriar o banco a partir dos CSVs: `python src/criar_banco.py`.
 3. Em **Nome do arquivo de banco de dados**, clique na pasta e selecione `banco/case_suporte.db`.
 4. **Abrir**.
 
-**Executar os scripts:** **Arquivo → Carregar arquivo SQL** → escolha `sql/01_parametros.sql` → **Executar** (`F9`). Repita de `01` a `06`, **na ordem**.
+**Rodar uma consulta:** **Arquivo → Carregar arquivo SQL** → escolha uma consulta de `sql/` → **Executar** (`F9`).
 
 > O HeidiSQL suporta SQLite a partir da versão 11.0. Se a opção não aparecer em "Tipo de rede", atualize o programa.
 
-## 4. Conferir se deu certo
+## 4. As consultas e o resultado esperado
 
-Depois do script `06`, rode:
+As consultas de `sql/` são **somente leitura** (`SELECT`): leem as tabelas `stg_*` e não criam, alteram nem apagam nada. Cada uma reproduz um visual do painel Power BI e pode ser rodada em qualquer ordem.
 
-```sql
-SELECT regra, COUNT(*) AS ocorrencias FROM dq_ocorrencias GROUP BY regra;
-SELECT SUM(pontos_total) AS pontos FROM apuracao;
-SELECT * FROM vw_kpi_geral;
-```
+| Consulta | Visual no Power BI | Resultado esperado |
+|---|---|---|
+| `01_visao_geral_indicadores.sql` | cartões da Visão geral | 640 chamados · backlog 52 · TMR 13,4 h · reabertura 7,8% · SLA resolução 73,3% · SLA 1ª resposta 66,4% |
+| `02_chamados_por_semana.sql` | Chamados por semana | picos de 90 (semana 5) e 91 (semana 9) |
+| `03_sla_por_prioridade.sql` | SLA por prioridade | Crítica: 29,0% de 1ª resposta no prazo |
+| `04_recorrencia_pontuacao_x_duplicadas.sql` | Chamados de pontuação × vendas duplicadas | semana 5: 60 chamados e 696 duplicadas · semana 9: 59 e 248 |
+| `05_mapa_calor_categoria_semana.sql` | Mapa de calor | Pontuação divergente: 60 (s05) e 59 (s09), total 207 |
+| `06_pareto_categorias.sql` | Pareto | Pontuação divergente 32,3% · 4 categorias somam 77,7% |
 
-| Conferência | Valor esperado |
-|---|---:|
-| DQ01 Venda duplicada | 944 |
-| DQ02 Matrícula não cadastrada | 55 |
-| DQ03 Venda fora do período | 70 |
-| DQ04 Valor inválido | 38 |
-| DQ05 Participante sem meta | 6 |
-| DQ06 Matrícula fora do padrão | 12 |
-| DQ07 Resgate acima do saldo | 28 |
-| Pontos apurados | 388.000 |
-| Chamados / Backlog | 640 / 52 |
-| % SLA 1ª resposta / resolução | 66,4% / 73,3% |
-
-As consultas de cada etapa ficam salvas como **views** (`vw_...`) e podem ser abertas como tabelas no DBeaver ou no HeidiSQL.
+> Os scripts que preparam os dados para o Power BI (com `CREATE`, `INSERT` etc.) ficam separados em `src/sql_preparacao/` e são usados só pelo pipeline em Python.
 
 ## 5. Adaptando para MySQL, SQL Server ou PostgreSQL
 

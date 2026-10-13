@@ -26,7 +26,7 @@ from openpyxl.utils import get_column_letter  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
-SQL = ROOT / "sql"
+SQL = ROOT / "src" / "sql_preparacao"
 OUT = ROOT / "reports"
 IMG = OUT / "img"
 DB = OUT / "case.db"
@@ -130,7 +130,7 @@ def planilha_apuracao(con: sqlite3.Connection, destino: Path) -> None:
     bonus = int(q(con, "SELECT pontos FROM par_bonus").iloc[0, 0])
     ws["C10"], ws["C10"].font, ws["C10"].number_format = bonus, INPUT_FONT, "#,##0"
     ws["A12"] = ("Fonte: regulamento fictício da campanha Desafio Trimestral Q3/2026 "
-                 "(sql/01_parametros.sql).")
+                 "(src/sql_preparacao/01_parametros.sql).")
     ws["A12"].font = NOTE_FONT
     _larguras(ws, {"A": 30, "B": 20, "C": 14})
 

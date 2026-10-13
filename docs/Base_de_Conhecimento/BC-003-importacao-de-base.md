@@ -28,4 +28,4 @@ Foi exatamente isso que gerou as 248 duplicatas do LOTE-09 neste trimestre.
 
 ## Depois de importar
 
-Rodar `python src/pipeline.py` (ou as consultas de `sql/02_qualidade_dados.sql`) e conferir a aba **Qualidade - resumo**. Qualquer ocorrência bloqueante → avisar Campanhas antes de publicar a prévia.
+Rodar `python src/pipeline.py` (ou as consultas de `src/sql_preparacao/02_qualidade_dados.sql`) e conferir a aba **Qualidade - resumo**. Qualquer ocorrência bloqueante → avisar Campanhas antes de publicar a prévia.
