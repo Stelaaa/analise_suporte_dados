@@ -133,7 +133,7 @@ Cada visual do painel tem uma consulta SQL equivalente em [`sql/`](sql/). As con
 ## Como abrir
 
 - **Só ver o painel:** abra o [PDF](powerbi/painel_suporte_dados.pdf) ou o [`.pbix`](powerbi/painel_suporte_dados.pbix) no Power BI Desktop.
-- **Explorar os dados no DBeaver ou no HeidiSQL:** abra o banco pronto [`banco/case_suporte.db`](banco/case_suporte.db) e rode qualquer consulta de `sql/`. Passo a passo em [docs/adaptacao_sql.md](docs/adaptacao_sql.md), com adaptação para MySQL, SQL Server e PostgreSQL.
+- **Explorar os dados no DBeaver ou no HeidiSQL:** abra o banco pronto [`banco/case_suporte.db`](banco/case_suporte.db) e rode qualquer consulta de `sql/`. Passo a passo em [docs/banco_sql.md](docs/banco_sql.md), com adaptação para MySQL, SQL Server e PostgreSQL.
 - **Recriar tudo com Python:**
 
 ```bash
@@ -158,7 +158,7 @@ python src/pipeline.py           # calcula os indicadores e gera powerbi/dados/
     ├── proposta_melhoria.md        # causa raiz e plano de ação
     ├── powerbi_modelo.md           # modelo e medidas DAX
     ├── guia_powerbi.md             # passo a passo do painel
-    ├── adaptacao_sql.md            # DBeaver, HeidiSQL, MySQL, SQL Server, PostgreSQL
+    ├── banco_sql.md                # DBeaver, HeidiSQL, MySQL, SQL Server, PostgreSQL
     ├── playbook_triagem.md         # material de apoio: triagem de chamados
     ├── matriz_sla.md               # material de apoio: prazos de SLA
     └── Base_de_Conhecimento/       # material de apoio: artigos BC-001 a BC-003
@@ -171,4 +171,4 @@ python src/pipeline.py           # calcula os indicadores e gera powerbi/dados/
 
 ---
 
-**Autora:** Stela — Analista de Processos e Requisitos, formada em Sistemas de Informação (IFG) e pós-graduanda em Análise de Dados pela Anhanguera Educacional. · [LinkedIn](https://www.linkedin.com/in/<seu-perfil>)
+**Autora:** Stela — Analista de Processos e Requisitos, formada em Sistemas de Informação (IFG) e pós-graduanda em Análise de Dados pela Anhanguera Educacional. · [GitHub](https://github.com/Stelaaa) · [LinkedIn](https://www.linkedin.com/in/<seu-perfil>)

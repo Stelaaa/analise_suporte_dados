@@ -4,7 +4,7 @@ a partir de data/raw/*.csv. Usa só a biblioteca padrão do Python.
 
 Depois de criado, o banco pode ser aberto no DBeaver ou no HeidiSQL e as
 consultas de sql/ (somente leitura) reproduzem os números do painel.
-Ver docs/adaptacao_sql.md.
+Ver docs/banco_sql.md.
 
 Uso:  python src/criar_banco.py
 """

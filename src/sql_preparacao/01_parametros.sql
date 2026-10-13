@@ -3,7 +3,7 @@
 -- Tabelas de parâmetro: regras da campanha e matriz de SLA.
 -- Manter regra de negócio em tabela (e não "chumbada" no código) permite
 -- que a área de negócio altere faixas sem mexer na query de apuração.
--- Dialeto: SQLite (roda sem instalar nada). Ver docs/adaptacao_sql.md
+-- Dialeto: SQLite (roda sem instalar nada). Ver docs/banco_sql.md
 -- para MySQL, SQL Server, PostgreSQL e para abrir no DBeaver / HeidiSQL.
 -- =====================================================================
 
