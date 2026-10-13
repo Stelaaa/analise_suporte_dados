@@ -1,5 +1,7 @@
 # Suporte & Dados — case prático
 
+> 🎓 Case desenvolvido para a **Pós-graduação em Análise de Dados** da **Anhanguera Educacional** (2026).
+
 > **Pergunta do case:** uma campanha de vendas com metas e premiação fechou o trimestre. Antes de pagar os pontos, dá para confiar na apuração? E por que a fila de suporte estourou o SLA justamente em "pontuação divergente"?
 
 Este repositório simula, de ponta a ponta, o trabalho de um(a) **Analista de Suporte e Dados** em uma plataforma SaaS que apura campanhas de metas para empresas clientes: receber a base do cliente, validar, apurar, conferir, atender os chamados que surgem, medir SLA, achar a causa raiz da recorrência e propor melhoria de processo e de sistema.
@@ -216,4 +218,4 @@ Usa SQLite (vem com o Python), então não precisa instalar banco. Para abrir no
 
 ---
 
-**Autora:** Stela — Analista de Processos e Requisitos, formada em Sistemas de Informação (IFG) e pós-graduanda em Análise de Dados. · [LinkedIn](https://www.linkedin.com/in/<seu-perfil>)
+**Autora:** Stela — Analista de Processos e Requisitos, formada em Sistemas de Informação (IFG) e pós-graduanda em Análise de Dados pela Anhanguera Educacional. · [LinkedIn](https://www.linkedin.com/in/<seu-perfil>)

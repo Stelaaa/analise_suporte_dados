@@ -5,11 +5,12 @@
 
 ## 1. O problema, em números
 
-| Indicador | Pontuação divergente | Demais categorias |
-|---|---:|---:|
-| Participação no volume | 32,3% (207 chamados) | 67,7% |
-| Resolução dentro do SLA | 56,6% | 81,2% |
-| Reabertura | 17,4% | 3,2% |
+| Indicador               | Pontuação divergente | Demais categorias |
+| ----------------------- | -------------------: | ----------------: |
+| Participação no volume  | 32,3% (207 chamados) |             67,7% |
+| Resolução dentro do SLA |                56,6% |             81,2% |
+| Reabertura              |                17,4% |              3,2% |
+|                         |                      |                   |
 
 É a maior categoria, a mais lenta e a que mais volta. Cada reabertura é um participante que recebeu uma resposta e não acreditou nela.
 
@@ -20,11 +21,11 @@ Média de chamados de pontuação por semana:
 - semanas **sem** reimportação: **7,9**
 - semanas 5 e 9 (**com** reimportação): **59,5** — cerca de 7,5×
 
-| Lote | Vendas no lote | Duplicatas |
-|---|---:|---:|
-| LOTE-05 | 1.403 | 696 (reimportado inteiro) |
-| LOTE-09 | 960 | 248 (reimportado parcialmente) |
-| demais | ~650–850 | 0 |
+| Lote    | Vendas no lote |                     Duplicatas |
+| ------- | -------------: | -----------------------------: |
+| LOTE-05 |          1.403 |      696 (reimportado inteiro) |
+| LOTE-09 |            960 | 248 (reimportado parcialmente) |
+| demais  |       ~650–850 |                              0 |
 
 ## 3. Cinco porquês
 

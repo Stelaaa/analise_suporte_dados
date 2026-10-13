@@ -6,15 +6,15 @@ O case usa **SQLite**: o banco é um arquivo único, sem servidor para instalar.
 
 O arquivo [`banco/case_suporte.db`](../banco/case_suporte.db) já vem com as tabelas de origem carregadas:
 
-| Tabela | Linhas |
-|---|---:|
-| stg_campanha | 1 |
-| stg_participantes | 180 |
-| stg_metas | 174 |
-| stg_produtos | 8 |
-| stg_vendas | 9.999 |
-| stg_resgates | 87 |
-| stg_chamados | 640 |
+| Tabela            | Linhas |
+| ----------------- | -----: |
+| stg_campanha      |      1 |
+| stg_participantes |    180 |
+| stg_metas         |    174 |
+| stg_produtos      |      8 |
+| stg_vendas        |  9.999 |
+| stg_resgates      |     87 |
+| stg_chamados      |    640 |
 
 Para recriar o banco a partir dos CSVs: `python src/criar_banco.py`.
 
