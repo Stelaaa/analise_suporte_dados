@@ -1,0 +1,28 @@
+{
+  "vendas_duplicadas": 944,
+  "vendas_matricula_inexistente": 55,
+  "vendas_fora_periodo": 70,
+  "vendas_valor_invalido": 38,
+  "participantes_sem_meta": 6,
+  "matriculas_formato_irregular": 12,
+  "resgates_acima_saldo": 9,
+  "lista_participantes_sem_meta": [
+    "HZ0028",
+    "HZ0034",
+    "HZ0050",
+    "HZ0123",
+    "HZ0152",
+    "HZ0166"
+  ],
+  "lista_resgates_acima_saldo": [
+    "HZ0014",
+    "HZ0036",
+    "HZ0044",
+    "HZ0048",
+    "HZ0074",
+    "HZ0081",
+    "HZ0088",
+    "HZ0117",
+    "HZ0142"
+  ]
+}

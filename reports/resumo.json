@@ -1,0 +1,52 @@
+{
+  "kpi_geral": {
+    "chamados": 640.0,
+    "resolvidos": 588.0,
+    "backlog": 52.0,
+    "pct_sla_resposta": 66.4,
+    "pct_sla_resolucao": 73.3,
+    "tmr_horas": 13.4,
+    "pct_reabertura": 7.8
+  },
+  "qualidade": {
+    "DQ01 Venda duplicada": 944,
+    "DQ02 Matrícula não cadastrada": 55,
+    "DQ03 Venda fora do período": 70,
+    "DQ04 Valor inválido": 38,
+    "DQ05 Participante sem meta": 6,
+    "DQ06 Matrícula fora do padrão": 12,
+    "DQ07 Resgate acima do saldo": 28
+  },
+  "vendas": {
+    "brutas": 9999,
+    "validas": 8892
+  },
+  "apuracao": {
+    "total": 180,
+    "elegiveis": 169,
+    "pendentes": 6,
+    "pontos": 388000
+  },
+  "impacto": {
+    "n": 89,
+    "pts": 129000,
+    "a_mais": 89,
+    "a_menos": 0
+  },
+  "resgates_acima_saldo": {
+    "n": 28,
+    "pts": 231100
+  },
+  "pontuacao_divergente": {
+    "categoria": "Pontuação divergente",
+    "chamados": 207,
+    "pct_volume": 32.3,
+    "pct_sla_resposta": 54.1,
+    "pct_sla_resolucao": 56.6,
+    "tmr_horas": 13.9,
+    "pct_reabertura": 17.4,
+    "backlog": 18
+  },
+  "media_chamados_pontuacao_semana_pico": 59.5,
+  "media_chamados_pontuacao_semana_normal": 7.9
+}

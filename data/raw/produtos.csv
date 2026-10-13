@@ -1,0 +1,9 @@
+cod_produto,produto,categoria,preco_unitario
+P01,Refrigerante 2L,Bebidas,8.9
+P02,Água Mineral 500ml,Bebidas,2.1
+P03,Suco 1L,Bebidas,6.5
+P04,Biscoito Recheado,Alimentos,3.4
+P05,Salgadinho 100g,Alimentos,5.2
+P06,Creme Dental,Higiene,4.8
+P07,Sabonete,Higiene,2.6
+P08,Desodorante,Higiene,12.9
