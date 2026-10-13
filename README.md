@@ -23,6 +23,17 @@ Todos os dados são **fictícios** e gerados por script (seed fixa) — inclusiv
 
 ![Chamados de pontuação por semana](reports/img/recorrencia_pontuacao.png)
 
+## Painel Power BI
+
+![Painel Power BI: visão geral da fila e causa raiz](reports/img/painel_powerbi.png)
+
+Modelo estrela com 9 tabelas (fatos e dimensões) e 15 medidas DAX. A seção **Recorrência** cruza chamados de pontuação com vendas duplicadas por semana e mostra os picos coincidindo nas semanas 5 e 9.
+
+- Arquivo do painel: [`powerbi/painel_suporte_dados.pbix`](powerbi/painel_suporte_dados.pbix) (abra no Power BI Desktop, gratuito)
+- Versão em PDF: [`powerbi/painel_suporte_dados.pdf`](powerbi/painel_suporte_dados.pdf)
+- Como foi montado: [guia passo a passo](docs/guia_powerbi.md)
+
+
 ---
 
 ## Competências demonstradas
@@ -174,7 +185,10 @@ Usa SQLite (vem com o Python), então não precisa instalar banco. Para SQL Serv
 ├── src/
 │   ├── pipeline.py             # orquestra tudo e gera os relatórios
 │   └── export_powerbi.py       # exporta as tabelas do modelo Power BI
-├── powerbi/dados/              # CSVs prontos para importar no Power BI (fatos e dimensões)
+├── powerbi/
+│   ├── painel_suporte_dados.pbix # painel Power BI
+│   ├── painel_suporte_dados.pdf  # painel exportado em PDF
+│   └── dados/                    # CSVs prontos para importar no Power BI (fatos e dimensões)
 ├── reports/
 │   ├── apuracao_campanha.xlsx  # parâmetros, apuração com fórmulas, qualidade, impacto, resgates
 │   ├── indicadores_suporte.xlsx# visão geral, categoria, prioridade, analista, Pareto, recorrência

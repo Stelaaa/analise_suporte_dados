@@ -24,12 +24,12 @@ Em cada etapa há um **número para conferir**. Se o seu painel mostrar o mesmo 
 
 Os arquivos de `powerbi/dados/` já estão no **padrão brasileiro**, o mesmo do Power BI em português:
 
-| Item | Formato nos arquivos |
-|---|---|
-| Separador de colunas | ponto e vírgula (`;`) |
-| Separador decimal | vírgula (`12,5`) |
-| Datas | `dd/mm/aaaa` (`01/07/2026`) e `dd/mm/aaaa hh:mm` |
-| Acentos | UTF-8 |
+| Item                 | Formato nos arquivos                             |
+| -------------------- | ------------------------------------------------ |
+| Separador de colunas | ponto e vírgula (`;`)                            |
+| Separador decimal    | vírgula (`12,5`)                                 |
+| Datas                | `dd/mm/aaaa` (`01/07/2026`) e `dd/mm/aaaa hh:mm` |
+| Acentos              | UTF-8                                            |
 
 Você não precisa mudar nada, só confirmar:
 
@@ -75,17 +75,17 @@ Para trocar, clique no ícone à esquerda do nome da coluna. Depois clique em **
 2. O Power BI tenta criar relacionamentos sozinho. Apague os que não estiverem na lista abaixo (clique na linha → **Delete**).
 3. Para criar um relacionamento, arraste a coluna da tabela `d...` até a coluna de mesmo nome na tabela `f...`.
 
-| De (lado 1) | Para (lado *) |
-|---|---|
-| dCalendario[data] | fChamados[data] |
-| dCalendario[data] | fVendas[data] |
-| dCalendario[data] | fResgates[data] |
-| dPrioridade[prioridade] | fChamados[prioridade] |
-| dParticipante[matricula] | fVendas[matricula] |
-| dParticipante[matricula] | fResgates[matricula] |
-| dParticipante[matricula] | fOcorrenciasDQ[matricula] |
+| De (lado 1)              | Para (lado *)                   |
+| ------------------------ | ------------------------------- |
+| dCalendario[data]        | fChamados[data]                 |
+| dCalendario[data]        | fVendas[data]                   |
+| dCalendario[data]        | fResgates[data]                 |
+| dPrioridade[prioridade]  | fChamados[prioridade]           |
+| dParticipante[matricula] | fVendas[matricula]              |
+| dParticipante[matricula] | fResgates[matricula]            |
+| dParticipante[matricula] | fOcorrenciasDQ[matricula]       |
 | dParticipante[matricula] | fApuracao[matricula] (1 para 1) |
-| dProduto[cod_produto] | fVendas[cod_produto] |
+| dProduto[cod_produto]    | fVendas[cod_produto]            |
 
 4. **Marcar o calendário:** clique com o botão direito em `dCalendario` → **Marcar como tabela de datas** → coluna `data`.
 5. **Ordenar prioridades:** na Exibição de tabela, selecione `dPrioridade[prioridade]` → **Ferramentas de coluna → Classificar por coluna → ordem**. Assim aparece Crítica, Alta, Média, Baixa, e não em ordem alfabética.
@@ -152,21 +152,21 @@ Participantes Elegíveis = CALCULATE ( COUNTROWS ( fApuracao ), fApuracao[situac
 
 **Conferir** (crie um visual de **Cartão** com cada medida, sem filtro nenhum):
 
-| Medida | Valor esperado |
-|---|---:|
-| Chamados | 640 |
-| Backlog | 52 |
-| % SLA Resolução | 73,3% |
-| % SLA 1ª Resposta | 66,4% |
-| TMR (h) | 13,4 |
-| % Reabertura | 7,8% |
-| Chamados Pontuação | 207 |
-| Duplicatas Importadas | 944 |
-| Faturamento Inflado | R$ 144.861,80 |
-| % Vendas Válidas | 88,9% |
-| Ocorrências Bloqueantes | 1.141 |
-| Pontos Apurados | 388.000 |
-| Participantes Elegíveis | 169 |
+| Medida                  | Valor esperado |
+| ----------------------- | -------------: |
+| Chamados                |            640 |
+| Backlog                 |             52 |
+| % SLA Resolução         |          73,3% |
+| % SLA 1ª Resposta       |          66,4% |
+| TMR (h)                 |           13,4 |
+| % Reabertura            |           7,8% |
+| Chamados Pontuação      |            207 |
+| Duplicatas Importadas   |            944 |
+| Faturamento Inflado     |  R$ 144.861,80 |
+| % Vendas Válidas        |          88,9% |
+| Ocorrências Bloqueantes |          1.141 |
+| Pontos Apurados         |        388.000 |
+| Participantes Elegíveis |            169 |
 
 ## Etapa 6 · Montar as 4 páginas
 
@@ -174,24 +174,26 @@ Volte para a **Exibição de relatório** (primeiro ícone da esquerda). Para re
 
 Para criar um visual: clique no tipo em **Visualizações**, depois marque ou arraste os campos para os espaços **Eixo X**, **Eixo Y**, **Valores** e **Legenda**.
 
+> ⚠️ Antes de escolher um tipo de visual novo, **clique numa área vazia da página**. Se houver um visual selecionado, o Power BI transforma o visual selecionado no tipo escolhido, em vez de criar outro.
+
 ### Página 1 · Visão geral
 
-| Visual | Campos |
-|---|---|
-| 6 × **Cartão** (linha do topo) | Chamados · Backlog · % SLA Resolução · % SLA 1ª Resposta · TMR (h) · % Reabertura |
-| **Gráfico de colunas clusterizado** | Eixo X: `dCalendario[semana_campanha]` · Eixo Y: `Chamados` |
-| **Gráfico de barras clusterizado** | Eixo Y: `dPrioridade[prioridade]` · Eixo X: `% SLA 1ª Resposta` e `% SLA Resolução` |
-| 2 × **Segmentação de dados** | `fChamados[categoria]` · `fChamados[analista]` |
+| Visual                              | Campos                                                                              |
+| ----------------------------------- | ----------------------------------------------------------------------------------- |
+| 6 × **Cartão** (linha do topo)      | Chamados · Backlog · % SLA Resolução · % SLA 1ª Resposta · TMR (h) · % Reabertura   |
+| **Gráfico de colunas agrupadas** | Eixo X: `dCalendario[semana_campanha]` · Eixo Y: `Chamados`                         |
+| **Gráfico de barras agrupadas**  | Eixo Y: `dPrioridade[prioridade]` · Eixo X: `% SLA 1ª Resposta` e `% SLA Resolução` |
+| 2 × **Segmentação de dados**        | `fChamados[categoria]` · `fChamados[analista]`                                      |
 
 👉 Conferir: na barra de prioridade, **Crítica** deve mostrar 29,0% de 1ª resposta. É o achado "o urgente é atendido por último".
 
 ### Página 2 · Recorrência (a página mais importante)
 
-| Visual | Campos |
-|---|---|
-| **Gráfico de linhas e de colunas clusterizado** | Eixo X: `dCalendario[semana_campanha]` · Colunas: `Chamados Pontuação` · Linha: `Duplicatas Importadas` |
-| **Gráfico de linhas e de colunas clusterizado** (Pareto) | Eixo X: `fChamados[categoria]` · Colunas: `Chamados` · Linha: `Pareto % Acumulado` |
-| **Matriz** | Linhas: `fChamados[categoria]` · Colunas: `dCalendario[semana_campanha]` · Valores: `Chamados` |
+| Visual                                            | Campos                                                                                                                     |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Gráfico de colunas agrupadas e linha**          | Eixo X: `dCalendario[semana_campanha]` · Eixo Y da coluna: `Chamados Pontuação` · Eixo Y da linha: `Duplicatas Importadas` |
+| **Gráfico de colunas agrupadas e linha** (Pareto) | Eixo X: `fChamados[categoria]` · Eixo Y da coluna: `Chamados` · Eixo Y da linha: `Pareto % Acumulado`                      |
+| **Matriz**                                        | Linhas: `fChamados[categoria]` · Colunas: `dCalendario[semana_campanha]` · Valores: `Chamados`                             |
 
 - No primeiro gráfico, as colunas e a linha devem disparar juntas nas **semanas 5 e 9**. Esse é o gráfico que conta a história da causa raiz.
 - No Pareto: clique nos **...** do visual → **Classificar eixo → Chamados**, decrescente.
@@ -199,21 +201,21 @@ Para criar um visual: clique no tipo em **Visualizações**, depois marque ou ar
 
 ### Página 3 · Qualidade da base
 
-| Visual | Campos |
-|---|---|
-| 3 × **Cartão** | Ocorrências Bloqueantes · Faturamento Inflado · % Vendas Válidas |
-| **Gráfico de barras clusterizado** | Eixo Y: `fOcorrenciasDQ[regra]` · Eixo X: `Ocorrências` · Legenda: `fOcorrenciasDQ[severidade]` |
-| **Tabela** | `fOcorrenciasDQ[regra]`, `id_registro`, `matricula`, `detalhe` |
-| **Segmentação de dados** | `fOcorrenciasDQ[regra]` |
+| Visual                          | Campos                                                                                          |
+| ------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 3 × **Cartão**                  | Ocorrências Bloqueantes · Faturamento Inflado · % Vendas Válidas                                |
+| **Gráfico de barras agrupadas** | Eixo Y: `fOcorrenciasDQ[regra]` · Eixo X: `Ocorrências` · Legenda: `fOcorrenciasDQ[severidade]` |
+| **Tabela**                      | `fOcorrenciasDQ[regra]`, `id_registro`, `matricula`, `detalhe`                                  |
+| **Segmentação de dados**        | `fOcorrenciasDQ[regra]`                                                                         |
 
 ### Página 4 · Apuração
 
-| Visual | Campos |
-|---|---|
-| 2 × **Cartão** | Pontos Apurados · Participantes Elegíveis |
-| **Gráfico de colunas clusterizado** | Eixo X: `fApuracao[faixa]` · Eixo Y: `Participantes Elegíveis` |
-| **Gráfico de barras clusterizado** | Eixo Y: `dParticipante[regional]` · Eixo X: `Pontos Apurados` |
-| **Tabela** | `fApuracao[matricula]`, `nome`, `situacao`, `faturamento`, `meta_faturamento`, `atingimento`, `pontos_total` |
+| Visual                           | Campos                                                                                                       |     |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------ | --- |
+| 2 × **Cartão**                   | Pontos Apurados · Participantes Elegíveis                                                                    |     |
+| **Gráfico de colunas agrupadas** | Eixo X: `fApuracao[faixa]` · Eixo Y: `Participantes Elegíveis`                                               |     |
+| **Gráfico de barras agrupadas**  | Eixo Y: `dParticipante[regional]` · Eixo X: `Pontos Apurados`                                                |     |
+| **Tabela**                       | `fApuracao[matricula]`, `nome`, `situacao`, `faturamento`, `meta_faturamento`, `atingimento`, `pontos_total` |     |
 
 Formate `atingimento` como Porcentagem (selecione a coluna no painel Dados → Ferramentas de coluna).
 
@@ -285,12 +287,12 @@ A opção vem desligada. Como administradora da sua conta de teste, você mesma 
 
 ## Se der errado
 
-| Sintoma | Causa provável | Solução |
-|---|---|---|
-| `TMR (h)` deu 134 em vez de 13,4, ou as datas viraram texto | a localidade de importação não está em Português (Brasil) | refaça a Etapa 2 e, em Transformar dados, clique em **Atualizar visualização** |
-| Todas as colunas vieram juntas numa só | delimitador errado | na prévia da importação, escolha **Delimitador: Ponto e vírgula** |
-| Acentos viraram `Ã§` | codificação do arquivo | na importação, escolha **65001: Unicode (UTF-8)** |
-| Cartão mostra o mesmo número em qualquer filtro | relacionamento faltando | revise a tabela da Etapa 4 |
-| Erro "a sintaxe para ',' está incorreta" | a opção de separadores locais do DAX está ativada | troque `,` por `;` nas fórmulas (nota da Etapa 2) |
-| A opção "Publicar na Web" não aparece | configuração de locatário desligada | Etapa 9.3 e espere alguns minutos |
-| "Entre em contato com o administrador para habilitar a criação de código" | idem | Etapa 9.3 |
+| Sintoma                                                                   | Causa provável                                            | Solução                                                                        |
+| ------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| `TMR (h)` deu 134 em vez de 13,4, ou as datas viraram texto               | a localidade de importação não está em Português (Brasil) | refaça a Etapa 2 e, em Transformar dados, clique em **Atualizar visualização** |
+| Todas as colunas vieram juntas numa só                                    | delimitador errado                                        | na prévia da importação, escolha **Delimitador: Ponto e vírgula**              |
+| Acentos viraram `Ã§`                                                      | codificação do arquivo                                    | na importação, escolha **65001: Unicode (UTF-8)**                              |
+| Cartão mostra o mesmo número em qualquer filtro                           | relacionamento faltando                                   | revise a tabela da Etapa 4                                                     |
+| Erro "a sintaxe para ',' está incorreta"                                  | a opção de separadores locais do DAX está ativada         | troque `,` por `;` nas fórmulas (nota da Etapa 2)                              |
+| A opção "Publicar na Web" não aparece                                     | configuração de locatário desligada                       | Etapa 9.3 e espere alguns minutos                                              |
+| "Entre em contato com o administrador para habilitar a criação de código" | idem                                                      | Etapa 9.3                                                                      |
