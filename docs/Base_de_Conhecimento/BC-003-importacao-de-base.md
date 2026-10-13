@@ -1,4 +1,4 @@
-# KB-003 · Importação de base
+# BC-003 · Importação de base
 
 **Categoria:** Importação de base · **Prioridade padrão:** Crítica · **Atualizado em:** out/2026
 

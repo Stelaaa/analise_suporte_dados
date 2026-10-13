@@ -344,6 +344,8 @@ def main() -> None:
     graficos(con)
     r = resumo(con)
     con.close()
+    import export_powerbi  # tabelas do modelo Power BI em powerbi/dados/
+    export_powerbi.main()
     print(json.dumps(r, indent=2, ensure_ascii=False))
 
 

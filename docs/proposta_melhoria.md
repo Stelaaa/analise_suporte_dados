@@ -45,7 +45,7 @@ Média de chamados de pontuação por semana:
 | 3 | Rodar as regras DQ01–DQ07 **antes** de publicar a prévia; publicar só com 0 ocorrências bloqueantes ou com aceite de Campanhas | Processo | Suporte & Dados | Baixo | prévia deixa de oscilar |
 | 4 | Limitar resgate durante a campanha a um percentual do saldo da prévia (ex.: 50%) até a apuração final | Regra de negócio | Campanhas / Cliente | Baixo | evita os 19 resgates sem lastro |
 | 5 | Alerta para resgate acima de um teto (ex.: 10.000 pts em um pedido) | Sistema | Produto / Dev | Baixo | barra os 9 pedidos anômalos |
-| 6 | Artigo KB-001 + macro de resposta para "pontuação divergente" com o extrato de vendas do participante | Suporte | Suporte & Dados | Baixo | resposta mais rápida e com evidência, menos reabertura |
+| 6 | Artigo BC-001 + macro de resposta para "pontuação divergente" com o extrato de vendas do participante | Suporte | Suporte & Dados | Baixo | resposta mais rápida e com evidência, menos reabertura |
 | 7 | Alerta (e-mail/Slack) na abertura de chamado Crítico | Ferramenta de tickets | Suporte & Dados | Baixo | ataca o SLA de 1ª resposta de 29% |
 
 Prioridade sugerida: **3, 6 e 7 já** (não dependem de desenvolvimento) → **1 e 2** no próximo ciclo de produto → **4 e 5** negociados com o cliente para a próxima campanha.

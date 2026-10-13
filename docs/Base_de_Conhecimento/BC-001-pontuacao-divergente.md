@@ -1,4 +1,4 @@
-# KB-001 · Pontuação divergente
+# BC-001 · Pontuação divergente
 
 **Categoria:** Pontuação divergente · **Prioridade padrão:** Alta · **Atualizado em:** out/2026
 
@@ -31,7 +31,7 @@ WHERE matricula = 'HZ0133';
 
 ## Resposta
 
-Use o modelo abaixo e **anexe o extrato** (vendas válidas e bloqueadas com o motivo). Sem extrato, a chance de reabertura é alta.
+Modelo para enviar, **anexar o extrato** (vendas válidas e bloqueadas com o motivo). Sem extrato, a chance de reabertura é alta.
 
 > Olá, [nome]! Conferimos suas vendas da campanha Desafio Trimestral.
 > Seu faturamento válido no período foi de **R$ [valor]**, que corresponde a **[x]%** da sua meta de R$ [meta] — faixa **[faixa]**, **[pontos] pontos**. [Se houver bônus: você também atingiu a meta de positivação, +1.500 pontos.]

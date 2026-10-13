@@ -1,0 +1,5 @@
+prioridade,horas_primeira_resposta,horas_resolucao,ordem
+Crítica,0.5,4.0,1
+Alta,1.0,8.0,2
+Média,2.0,24.0,3
+Baixa,4.0,48.0,4

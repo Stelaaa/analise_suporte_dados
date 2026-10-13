@@ -24,9 +24,9 @@ Abertura → Triagem (≤ SLA de 1ª resposta) → Diagnóstico → Solução ou
 
 | Categoria | Prioridade padrão | Primeira pergunta | Artigo |
 |---|---|---|---|
-| Pontuação divergente | Alta | A venda está na base importada? Está duplicada, fora do período ou sem meta? | [KB-001](kb/KB-001-pontuacao-divergente.md) |
-| Resgate não creditado | Alta | O resgate saiu do saldo? O parceiro confirmou o envio? | [KB-002](kb/KB-002-resgate-nao-creditado.md) |
-| Importação de base | Crítica | O arquivo segue o layout? Já foi importado antes? | [KB-003](kb/KB-003-importacao-de-base.md) |
+| Pontuação divergente | Alta | A venda está na base importada? Está duplicada, fora do período ou sem meta? | [BC-001](Base_de_Conhecimento/BC-001-pontuacao-divergente.md) |
+| Resgate não creditado | Alta | O resgate saiu do saldo? O parceiro confirmou o envio? | [BC-002](Base_de_Conhecimento/BC-002-resgate-nao-creditado.md) |
+| Importação de base | Crítica | O arquivo segue o layout? Já foi importado antes? | [BC-003](Base_de_Conhecimento/BC-003-importacao-de-base.md) |
 | Acesso / login | Média | Matrícula está ativa e no formato certo (sem espaço / maiúscula)? | — |
 | Cadastro de participante | Média | O participante está no arquivo de participantes e no de metas? | — |
 | Relatório / dashboard | Média | A divergência é de dado ou de filtro/atualização? | — |

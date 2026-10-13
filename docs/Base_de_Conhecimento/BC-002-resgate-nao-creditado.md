@@ -1,4 +1,4 @@
-# KB-002 · Resgate não creditado
+# BC-002 · Resgate não creditado
 
 **Categoria:** Resgate não creditado · **Prioridade padrão:** Alta · **Atualizado em:** out/2026
 

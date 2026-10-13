@@ -1,0 +1,641 @@
+id_chamado,data,data_abertura,data_primeira_resposta,data_resolucao,categoria,prioridade,canal,status,analista,matricula,reaberto,sla_resp_h,sla_res_h,horas_resposta,horas_resolucao,resp_no_prazo,res_no_prazo,semana_campanha
+CH-00283,2026-07-01,2026-07-01 12:21,2026-07-01 12:36,2026-07-01 17:55,Cadastro de participante,Média,WhatsApp,Resolvido,Analista B,HZ0161,Não,2.0,24.0,0.25,5.57,1,1,1
+CH-00335,2026-07-01,2026-07-01 14:42,2026-07-01 16:13,2026-07-04 17:06,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista A,HZ0145,Não,4.0,48.0,1.52,74.4,1,0,1
+CH-00166,2026-07-01,2026-07-01 15:20,2026-07-01 16:04,2026-07-02 11:30,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0132,Não,1.0,8.0,0.73,20.17,1,0,1
+CH-00329,2026-07-01,2026-07-01 19:25,2026-07-01 21:50,2026-07-02 23:32,Resgate não creditado,Média,E-mail,Resolvido,Analista C,,Não,2.0,24.0,2.42,28.12,0,0,1
+CH-00135,2026-07-01,2026-07-01 22:01,2026-07-01 22:21,2026-07-02 00:33,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista C,,Não,4.0,48.0,0.33,2.53,1,1,1
+CH-00397,2026-07-01,2026-07-01 23:24,2026-07-02 00:04,2026-07-02 09:00,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0049,Não,1.0,8.0,0.67,9.6,1,0,1
+CH-00609,2026-07-02,2026-07-02 02:02,2026-07-02 06:11,2026-07-02 08:45,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista B,,Não,2.0,24.0,4.15,6.72,0,1,1
+CH-00262,2026-07-02,2026-07-02 05:22,2026-07-02 07:48,2026-07-02 07:57,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0169,Não,1.0,8.0,2.43,2.58,0,1,1
+CH-00142,2026-07-02,2026-07-02 08:24,2026-07-02 10:41,2026-07-03 12:20,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,2.28,27.93,0,0,1
+CH-00477,2026-07-02,2026-07-02 12:20,2026-07-02 13:40,2026-07-02 12:53,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0173,Não,1.0,8.0,1.33,0.55,0,1,1
+CH-00632,2026-07-02,2026-07-02 12:46,2026-07-02 13:02,2026-07-02 14:33,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0006,Não,1.0,8.0,0.27,1.78,1,1,1
+CH-00006,2026-07-02,2026-07-02 16:01,2026-07-02 16:52,2026-07-03 01:07,Acesso / login,Média,E-mail,Resolvido,Analista B,,Não,2.0,24.0,0.85,9.1,1,1,1
+CH-00577,2026-07-02,2026-07-02 20:12,2026-07-02 20:44,2026-07-03 07:15,Importação de base,Crítica,E-mail,Resolvido,Analista B,HZ0162,Não,0.5,4.0,0.53,11.05,0,0,1
+CH-00464,2026-07-02,2026-07-02 20:33,2026-07-02 21:27,2026-07-05 11:52,Cadastro de participante,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,0.9,63.32,1,0,1
+CH-00370,2026-07-03,2026-07-03 00:52,2026-07-03 05:47,2026-07-03 09:31,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,,Não,4.0,48.0,4.92,8.65,0,1,1
+CH-00409,2026-07-03,2026-07-03 03:32,2026-07-03 06:37,2026-07-04 13:27,Relatório / dashboard,Baixa,Portal,Resolvido,Analista B,HZ0025,Não,4.0,48.0,3.08,33.92,1,1,1
+CH-00587,2026-07-03,2026-07-03 09:11,2026-07-03 09:26,2026-07-03 21:10,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0063,Não,1.0,8.0,0.25,11.98,1,0,1
+CH-00549,2026-07-03,2026-07-03 14:50,2026-07-03 15:09,2026-07-03 18:08,Acesso / login,Baixa,Portal,Resolvido,Analista B,HZ0050,Não,4.0,48.0,0.32,3.3,1,1,1
+CH-00319,2026-07-03,2026-07-03 19:13,2026-07-03 20:18,2026-07-04 01:47,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0028,Não,1.0,8.0,1.08,6.57,0,1,1
+CH-00144,2026-07-04,2026-07-04 06:13,2026-07-04 07:20,2026-07-04 07:06,Importação de base,Crítica,E-mail,Resolvido,Analista C,HZ0071,Não,0.5,4.0,1.12,0.88,0,1,1
+CH-00183,2026-07-04,2026-07-04 08:14,2026-07-04 08:25,2026-07-04 09:27,Resgate não creditado,Alta,E-mail,Resolvido,Analista B,,Não,1.0,8.0,0.18,1.22,1,1,1
+CH-00158,2026-07-04,2026-07-04 11:55,2026-07-04 12:00,2026-07-04 12:45,Resgate não creditado,Alta,E-mail,Resolvido,Analista A,HZ0172,Não,1.0,8.0,0.08,0.83,1,1,1
+CH-00185,2026-07-04,2026-07-04 19:36,2026-07-04 20:31,2026-07-05 06:48,Relatório / dashboard,Média,E-mail,Resolvido,Analista C,HZ0155,Não,2.0,24.0,0.92,11.2,1,1,1
+CH-00023,2026-07-05,2026-07-05 03:33,2026-07-05 03:55,,Acesso / login,Média,Portal,Em andamento,Analista C,HZ0179,Não,2.0,24.0,0.37,,1,,1
+CH-00454,2026-07-05,2026-07-05 06:31,2026-07-05 08:47,2026-07-05 07:33,Relatório / dashboard,Crítica,Portal,Resolvido,Analista A,,Não,0.5,4.0,2.27,1.03,0,1,1
+CH-00345,2026-07-05,2026-07-05 12:22,2026-07-05 14:20,2026-07-05 16:35,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0097,Não,1.0,8.0,1.97,4.22,0,1,1
+CH-00529,2026-07-05,2026-07-05 13:32,2026-07-05 15:21,2026-07-05 15:09,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0073,Não,1.0,8.0,1.82,1.62,0,1,1
+CH-00414,2026-07-06,2026-07-06 05:31,2026-07-06 06:07,,Acesso / login,Média,WhatsApp,Aguardando cliente,Analista B,HZ0131,Não,2.0,24.0,0.6,,1,,1
+CH-00175,2026-07-06,2026-07-06 06:16,2026-07-06 06:41,2026-07-06 16:34,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0056,Não,1.0,8.0,0.42,10.3,1,0,1
+CH-00214,2026-07-06,2026-07-06 08:15,2026-07-06 10:08,2026-07-07 14:05,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0037,Não,2.0,24.0,1.88,29.83,1,0,1
+CH-00448,2026-07-06,2026-07-06 09:06,2026-07-06 09:11,2026-07-08 07:44,Relatório / dashboard,Média,Portal,Resolvido,Analista B,HZ0018,Não,2.0,24.0,0.08,46.63,1,0,1
+CH-00387,2026-07-06,2026-07-06 15:17,2026-07-06 15:44,2026-07-08 04:03,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0030,Não,2.0,24.0,0.45,36.77,1,0,1
+CH-00582,2026-07-06,2026-07-06 18:40,2026-07-06 19:17,2026-07-06 23:24,Dúvida de regulamento,Crítica,E-mail,Resolvido,Analista B,HZ0009,Não,0.5,4.0,0.62,4.73,0,0,1
+CH-00014,2026-07-07,2026-07-07 02:05,2026-07-07 02:44,2026-07-07 15:55,Relatório / dashboard,Média,Portal,Resolvido,Analista B,HZ0047,Não,2.0,24.0,0.65,13.83,1,1,1
+CH-00078,2026-07-07,2026-07-07 07:46,2026-07-07 08:45,2026-07-07 09:17,Cadastro de participante,Crítica,Portal,Resolvido,Analista A,HZ0088,Sim,0.5,4.0,0.98,1.52,0,1,1
+CH-00562,2026-07-07,2026-07-07 09:10,2026-07-07 09:30,2026-07-08 10:46,Importação de base,Baixa,E-mail,Resolvido,Analista A,HZ0013,Não,4.0,48.0,0.33,25.6,1,1,1
+CH-00291,2026-07-07,2026-07-07 10:51,2026-07-07 12:25,2026-07-07 14:16,Dúvida de regulamento,Crítica,Portal,Resolvido,Analista C,HZ0147,Não,0.5,4.0,1.57,3.42,0,1,1
+CH-00525,2026-07-07,2026-07-07 15:45,2026-07-07 18:10,2026-07-08 10:30,Acesso / login,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,2.42,18.75,0,1,1
+CH-00600,2026-07-08,2026-07-08 06:16,2026-07-08 09:15,2026-07-08 07:37,Dúvida de regulamento,Alta,Portal,Resolvido,Analista B,HZ0049,Não,1.0,8.0,2.98,1.35,0,1,2
+CH-00217,2026-07-08,2026-07-08 08:19,2026-07-08 10:38,2026-07-09 15:21,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,,Não,4.0,48.0,2.32,31.03,1,1,2
+CH-00203,2026-07-08,2026-07-08 10:13,2026-07-08 10:20,,Acesso / login,Média,Portal,Aguardando cliente,Analista C,,Não,2.0,24.0,0.12,,1,,2
+CH-00040,2026-07-08,2026-07-08 11:44,2026-07-08 12:21,2026-07-08 21:24,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,HZ0177,Não,4.0,48.0,0.62,9.67,1,1,2
+CH-00427,2026-07-08,2026-07-08 11:49,2026-07-08 12:36,2026-07-08 22:28,Importação de base,Crítica,Portal,Resolvido,Analista A,HZ0118,Não,0.5,4.0,0.78,10.65,0,0,2
+CH-00278,2026-07-08,2026-07-08 12:28,2026-07-08 13:10,2026-07-08 17:33,Cadastro de participante,Média,E-mail,Resolvido,Analista B,HZ0129,Não,2.0,24.0,0.7,5.08,1,1,2
+CH-00146,2026-07-08,2026-07-08 13:02,2026-07-08 13:13,2026-07-08 20:24,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,,Não,1.0,8.0,0.18,7.37,1,1,2
+CH-00616,2026-07-08,2026-07-08 17:13,2026-07-08 17:18,2026-07-09 12:37,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.08,19.4,1,0,2
+CH-00425,2026-07-08,2026-07-08 18:09,2026-07-08 21:49,2026-07-08 19:29,Acesso / login,Crítica,Portal,Resolvido,Analista A,HZ0082,Não,0.5,4.0,3.67,1.33,0,1,2
+CH-00287,2026-07-08,2026-07-08 19:56,2026-07-08 22:01,2026-07-09 02:41,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0049,Não,1.0,8.0,2.08,6.75,0,1,2
+CH-00551,2026-07-09,2026-07-09 03:28,2026-07-09 03:33,,Dúvida de regulamento,Baixa,Portal,Em andamento,Analista B,HZ0055,Não,4.0,48.0,0.08,,1,,2
+CH-00189,2026-07-09,2026-07-09 05:19,2026-07-09 06:13,2026-07-09 10:14,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0130,Não,1.0,8.0,0.9,4.92,1,1,2
+CH-00069,2026-07-09,2026-07-09 08:39,2026-07-09 10:48,2026-07-10 17:11,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,HZ0170,Não,4.0,48.0,2.15,32.53,1,1,2
+CH-00364,2026-07-09,2026-07-09 09:14,2026-07-09 09:25,2026-07-09 13:43,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0074,Não,1.0,8.0,0.18,4.48,1,1,2
+CH-00187,2026-07-09,2026-07-09 09:25,2026-07-09 10:23,2026-07-09 19:54,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.97,10.48,1,0,2
+CH-00476,2026-07-09,2026-07-09 22:33,2026-07-09 23:03,2026-07-10 11:24,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0113,Não,2.0,24.0,0.5,12.85,1,1,2
+CH-00601,2026-07-10,2026-07-10 15:09,2026-07-10 18:01,2026-07-11 21:55,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0091,Não,1.0,8.0,2.87,30.77,0,0,2
+CH-00155,2026-07-10,2026-07-10 15:10,2026-07-10 17:48,2026-07-11 19:32,Acesso / login,Média,E-mail,Resolvido,Analista A,HZ0149,Não,2.0,24.0,2.63,28.37,0,0,2
+CH-00017,2026-07-10,2026-07-10 22:18,2026-07-11 03:26,2026-07-11 07:16,Cadastro de participante,Média,WhatsApp,Resolvido,Analista C,HZ0105,Não,2.0,24.0,5.13,8.97,0,1,2
+CH-00539,2026-07-11,2026-07-11 00:31,2026-07-11 03:58,2026-07-14 05:34,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,HZ0055,Não,4.0,48.0,3.45,77.05,1,0,2
+CH-00066,2026-07-11,2026-07-11 00:50,2026-07-11 04:05,2026-07-13 08:39,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista A,HZ0101,Não,4.0,48.0,3.25,55.82,1,0,2
+CH-00064,2026-07-11,2026-07-11 06:06,2026-07-11 07:26,2026-07-11 06:53,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0008,Não,1.0,8.0,1.33,0.78,0,1,2
+CH-00541,2026-07-11,2026-07-11 09:57,2026-07-11 10:31,2026-07-11 19:34,Relatório / dashboard,Média,Portal,Resolvido,Analista B,HZ0127,Não,2.0,24.0,0.57,9.62,1,1,2
+CH-00042,2026-07-11,2026-07-11 15:31,2026-07-11 16:34,,Cadastro de participante,Média,Portal,Em andamento,Analista A,,Não,2.0,24.0,1.05,,1,,2
+CH-00596,2026-07-12,2026-07-12 06:46,2026-07-12 06:57,2026-07-12 10:03,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0149,Não,1.0,8.0,0.18,3.28,1,1,2
+CH-00339,2026-07-12,2026-07-12 08:56,2026-07-12 09:18,2026-07-12 09:20,Acesso / login,Média,Portal,Resolvido,Analista B,,Não,2.0,24.0,0.37,0.4,1,1,2
+CH-00638,2026-07-12,2026-07-12 11:19,2026-07-12 11:24,2026-07-12 15:25,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista B,HZ0175,Não,4.0,48.0,0.08,4.1,1,1,2
+CH-00374,2026-07-12,2026-07-12 14:10,2026-07-12 14:19,2026-07-12 21:54,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,,Não,4.0,48.0,0.15,7.73,1,1,2
+CH-00193,2026-07-13,2026-07-13 01:54,2026-07-13 02:21,2026-07-13 13:29,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,,Não,4.0,48.0,0.45,11.58,1,1,2
+CH-00599,2026-07-13,2026-07-13 06:59,2026-07-13 08:46,2026-07-13 16:10,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0057,Não,1.0,8.0,1.78,9.18,0,0,2
+CH-00229,2026-07-13,2026-07-13 07:46,2026-07-13 09:22,2026-07-13 11:27,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista C,HZ0076,Não,1.0,8.0,1.6,3.68,0,1,2
+CH-00106,2026-07-13,2026-07-13 12:44,2026-07-13 13:30,2026-07-14 06:41,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista B,HZ0058,Não,2.0,24.0,0.77,17.95,1,1,2
+CH-00605,2026-07-13,2026-07-13 15:38,2026-07-13 16:23,2026-07-13 19:57,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0013,Não,1.0,8.0,0.75,4.32,1,1,2
+CH-00637,2026-07-13,2026-07-13 19:10,2026-07-13 20:04,2026-07-13 20:19,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0135,Não,1.0,8.0,0.9,1.15,1,1,2
+CH-00055,2026-07-13,2026-07-13 19:21,2026-07-13 19:27,2026-07-13 23:59,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0045,Não,2.0,24.0,0.1,4.63,1,1,2
+CH-00191,2026-07-13,2026-07-13 21:13,2026-07-13 22:10,2026-07-13 22:20,Resgate não creditado,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.95,1.12,1,1,2
+CH-00606,2026-07-14,2026-07-14 01:43,2026-07-14 03:21,2026-07-14 02:11,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0152,Sim,1.0,8.0,1.63,0.47,0,1,2
+CH-00434,2026-07-14,2026-07-14 03:12,2026-07-14 04:29,2026-07-14 10:42,Acesso / login,Alta,E-mail,Resolvido,Analista C,HZ0072,Não,1.0,8.0,1.28,7.5,0,1,2
+CH-00494,2026-07-14,2026-07-14 03:17,2026-07-14 03:25,2026-07-14 17:46,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0049,Sim,1.0,8.0,0.13,14.48,1,0,2
+CH-00310,2026-07-14,2026-07-14 03:18,2026-07-14 03:50,2026-07-14 21:54,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0150,Não,1.0,8.0,0.53,18.6,1,0,2
+CH-00207,2026-07-14,2026-07-14 07:30,2026-07-14 10:02,2026-07-14 07:58,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0041,Não,1.0,8.0,2.53,0.47,0,1,2
+CH-00234,2026-07-14,2026-07-14 10:23,2026-07-14 12:56,2026-07-14 11:21,Acesso / login,Média,E-mail,Resolvido,Analista A,HZ0059,Não,2.0,24.0,2.55,0.97,0,1,2
+CH-00184,2026-07-14,2026-07-14 11:15,2026-07-14 11:59,2026-07-15 11:24,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista A,HZ0058,Não,4.0,48.0,0.73,24.15,1,1,2
+CH-00081,2026-07-14,2026-07-14 13:24,2026-07-14 13:42,2026-07-15 19:14,Acesso / login,Média,WhatsApp,Resolvido,Analista B,HZ0152,Não,2.0,24.0,0.3,29.83,1,0,2
+CH-00548,2026-07-14,2026-07-14 15:21,2026-07-14 18:18,2026-07-15 16:59,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,2.95,25.63,0,0,2
+CH-00487,2026-07-14,2026-07-14 19:46,2026-07-14 20:00,2026-07-15 03:38,Acesso / login,Média,E-mail,Resolvido,Analista C,HZ0091,Não,2.0,24.0,0.23,7.87,1,1,2
+CH-00302,2026-07-14,2026-07-14 20:06,2026-07-14 20:11,2026-07-15 04:04,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0006,Não,1.0,8.0,0.08,7.97,1,1,2
+CH-00260,2026-07-15,2026-07-15 01:05,2026-07-15 01:31,2026-07-15 05:48,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0061,Não,2.0,24.0,0.43,4.72,1,1,3
+CH-00223,2026-07-15,2026-07-15 02:42,2026-07-15 03:49,2026-07-15 21:47,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,HZ0005,Não,1.0,8.0,1.12,19.08,0,0,3
+CH-00349,2026-07-15,2026-07-15 04:48,2026-07-15 06:07,2026-07-15 10:47,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0024,Não,4.0,48.0,1.32,5.98,1,1,3
+CH-00321,2026-07-15,2026-07-15 06:12,2026-07-15 08:59,2026-07-16 14:02,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0083,Não,4.0,48.0,2.78,31.83,1,1,3
+CH-00350,2026-07-15,2026-07-15 11:06,2026-07-15 15:01,2026-07-15 22:15,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Sim,1.0,8.0,3.92,11.15,0,0,3
+CH-00020,2026-07-15,2026-07-15 22:41,2026-07-16 00:02,2026-07-16 02:23,Pontuação divergente,Crítica,WhatsApp,Resolvido,Analista B,HZ0115,Não,0.5,4.0,1.35,3.7,0,1,3
+CH-00275,2026-07-16,2026-07-16 05:50,2026-07-16 06:17,2026-07-16 06:42,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista A,HZ0092,Sim,1.0,8.0,0.45,0.87,1,1,3
+CH-00489,2026-07-16,2026-07-16 14:05,2026-07-16 14:27,2026-07-16 18:28,Resgate não creditado,Baixa,Portal,Resolvido,Analista A,HZ0033,Não,4.0,48.0,0.37,4.38,1,1,3
+CH-00334,2026-07-16,2026-07-16 16:23,2026-07-16 19:36,2026-07-16 18:53,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0008,Sim,1.0,8.0,3.22,2.5,0,1,3
+CH-00359,2026-07-16,2026-07-16 22:00,2026-07-16 22:18,2026-07-17 00:23,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0009,Sim,1.0,8.0,0.3,2.38,1,1,3
+CH-00305,2026-07-17,2026-07-17 00:48,2026-07-17 01:33,2026-07-18 05:26,Importação de base,Baixa,Portal,Resolvido,Analista B,HZ0172,Não,4.0,48.0,0.75,28.63,1,1,3
+CH-00511,2026-07-17,2026-07-17 02:45,2026-07-17 03:04,,Acesso / login,Média,Portal,Aguardando cliente,Analista A,HZ0054,Não,2.0,24.0,0.32,,1,,3
+CH-00264,2026-07-17,2026-07-17 06:30,2026-07-17 13:57,2026-07-17 10:53,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0036,Não,1.0,8.0,7.45,4.38,0,1,3
+CH-00373,2026-07-17,2026-07-17 09:26,2026-07-17 12:01,2026-07-18 16:02,Acesso / login,Baixa,Portal,Resolvido,Analista C,HZ0087,Sim,4.0,48.0,2.58,30.6,1,1,3
+CH-00604,2026-07-17,2026-07-17 10:18,2026-07-17 11:20,2026-07-17 12:00,Relatório / dashboard,Média,E-mail,Resolvido,Analista A,HZ0120,Não,2.0,24.0,1.03,1.7,1,1,3
+CH-00033,2026-07-17,2026-07-17 13:33,2026-07-17 15:44,2026-07-19 23:18,Cadastro de participante,Média,Portal,Resolvido,Analista A,HZ0121,Não,2.0,24.0,2.18,57.75,0,0,3
+CH-00354,2026-07-17,2026-07-17 17:12,2026-07-17 20:09,2026-07-17 18:17,Acesso / login,Crítica,WhatsApp,Resolvido,Analista B,HZ0149,Não,0.5,4.0,2.95,1.08,0,1,3
+CH-00237,2026-07-17,2026-07-17 18:55,2026-07-17 20:20,2026-07-17 22:10,Dúvida de regulamento,Alta,E-mail,Resolvido,Analista A,HZ0060,Não,1.0,8.0,1.42,3.25,0,1,3
+CH-00298,2026-07-18,2026-07-18 00:34,2026-07-18 01:08,2026-07-19 03:41,Importação de base,Baixa,WhatsApp,Resolvido,Analista A,HZ0123,Não,4.0,48.0,0.57,27.12,1,1,3
+CH-00118,2026-07-18,2026-07-18 04:04,2026-07-18 06:07,2026-07-18 15:08,Cadastro de participante,Média,Portal,Resolvido,Analista A,,Não,2.0,24.0,2.05,11.07,0,1,3
+CH-00356,2026-07-18,2026-07-18 05:20,2026-07-18 06:44,,Acesso / login,Média,WhatsApp,Em andamento,Analista A,HZ0078,Não,2.0,24.0,1.4,,1,,3
+CH-00093,2026-07-18,2026-07-18 05:56,2026-07-18 07:11,2026-07-19 01:46,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0069,Não,4.0,48.0,1.25,19.83,1,1,3
+CH-00498,2026-07-18,2026-07-18 11:01,2026-07-18 13:20,2026-07-19 06:29,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,HZ0132,Sim,1.0,8.0,2.32,19.47,0,0,3
+CH-00195,2026-07-18,2026-07-18 19:07,2026-07-18 19:30,2026-07-19 08:25,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0139,Não,2.0,24.0,0.38,13.3,1,1,3
+CH-00216,2026-07-18,2026-07-18 19:39,2026-07-18 20:16,2026-07-19 06:15,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0180,Não,2.0,24.0,0.62,10.6,1,1,3
+CH-00436,2026-07-18,2026-07-18 21:47,2026-07-18 22:04,2026-07-19 05:12,Resgate não creditado,Média,WhatsApp,Resolvido,Analista A,HZ0014,Não,2.0,24.0,0.28,7.42,1,1,3
+CH-00439,2026-07-18,2026-07-18 22:54,2026-07-18 22:59,2026-07-21 07:56,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,,Não,4.0,48.0,0.08,57.03,1,0,3
+CH-00341,2026-07-18,2026-07-18 22:59,2026-07-18 23:46,2026-07-19 01:55,Importação de base,Crítica,Portal,Resolvido,Analista C,HZ0140,Não,0.5,4.0,0.78,2.93,0,1,3
+CH-00088,2026-07-19,2026-07-19 01:51,2026-07-19 01:56,2026-07-20 17:28,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0138,Não,2.0,24.0,0.08,39.62,1,0,3
+CH-00451,2026-07-19,2026-07-19 02:00,2026-07-19 04:56,2026-07-22 19:18,Resgate não creditado,Baixa,E-mail,Resolvido,Analista B,HZ0041,Não,4.0,48.0,2.93,89.3,1,0,3
+CH-00375,2026-07-19,2026-07-19 03:23,2026-07-19 03:39,2026-07-19 07:30,Resgate não creditado,Alta,E-mail,Resolvido,Analista C,HZ0064,Não,1.0,8.0,0.27,4.12,1,1,3
+CH-00626,2026-07-19,2026-07-19 08:47,2026-07-19 08:54,2026-07-19 20:15,Importação de base,Crítica,E-mail,Resolvido,Analista B,HZ0025,Não,0.5,4.0,0.12,11.47,1,0,3
+CH-00568,2026-07-19,2026-07-19 11:35,2026-07-19 12:50,2026-07-19 21:35,Resgate não creditado,Média,E-mail,Resolvido,Analista C,HZ0017,Não,2.0,24.0,1.25,10.0,1,1,3
+CH-00019,2026-07-19,2026-07-19 16:56,2026-07-19 18:08,2026-07-19 19:31,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0169,Não,1.0,8.0,1.2,2.58,0,1,3
+CH-00107,2026-07-19,2026-07-19 18:15,2026-07-19 18:25,2026-07-20 07:55,Acesso / login,Baixa,E-mail,Resolvido,Analista C,HZ0013,Não,4.0,48.0,0.17,13.67,1,1,3
+CH-00222,2026-07-19,2026-07-19 23:10,2026-07-20 01:23,2026-07-20 17:55,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0172,Não,4.0,48.0,2.22,18.75,1,1,3
+CH-00003,2026-07-20,2026-07-20 01:18,2026-07-20 01:38,2026-07-20 05:25,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,,Não,1.0,8.0,0.33,4.12,1,1,3
+CH-00157,2026-07-20,2026-07-20 06:11,2026-07-20 06:21,2026-07-20 07:13,Importação de base,Crítica,E-mail,Resolvido,Analista C,HZ0144,Não,0.5,4.0,0.17,1.03,1,1,3
+CH-00428,2026-07-20,2026-07-20 06:49,2026-07-20 07:38,2026-07-20 07:07,Dúvida de regulamento,Crítica,Portal,Resolvido,Analista B,,Não,0.5,4.0,0.82,0.3,0,1,3
+CH-00148,2026-07-20,2026-07-20 12:32,2026-07-20 14:11,2026-07-20 14:58,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0101,Não,1.0,8.0,1.65,2.43,0,1,3
+CH-00178,2026-07-20,2026-07-20 13:25,2026-07-20 15:30,2026-07-21 12:56,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0154,Não,4.0,48.0,2.08,23.52,1,1,3
+CH-00197,2026-07-20,2026-07-20 13:47,2026-07-20 16:12,2026-07-20 18:31,Dúvida de regulamento,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,2.42,4.73,0,1,3
+CH-00085,2026-07-20,2026-07-20 16:17,2026-07-20 18:08,2026-07-20 17:34,Pontuação divergente,Crítica,Portal,Resolvido,Analista A,HZ0004,Não,0.5,4.0,1.85,1.28,0,1,3
+CH-00469,2026-07-20,2026-07-20 18:05,2026-07-20 19:51,2026-07-21 01:34,Importação de base,Crítica,WhatsApp,Resolvido,Analista B,,Não,0.5,4.0,1.77,7.48,0,0,3
+CH-00259,2026-07-21,2026-07-21 00:00,2026-07-21 00:19,2026-07-22 23:20,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista A,HZ0152,Não,4.0,48.0,0.32,47.33,1,1,3
+CH-00483,2026-07-21,2026-07-21 00:10,2026-07-21 00:15,2026-07-21 18:57,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0027,Não,4.0,48.0,0.08,18.78,1,1,3
+CH-00458,2026-07-21,2026-07-21 02:14,2026-07-21 03:46,2026-07-22 13:32,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0161,Não,2.0,24.0,1.53,35.3,1,0,3
+CH-00076,2026-07-21,2026-07-21 07:38,2026-07-21 08:18,,Dúvida de regulamento,Baixa,Portal,Aguardando cliente,Analista B,HZ0025,Não,4.0,48.0,0.67,,1,,3
+CH-00038,2026-07-21,2026-07-21 15:44,2026-07-21 17:13,2026-07-24 00:29,Acesso / login,Baixa,E-mail,Resolvido,Analista C,HZ0101,Não,4.0,48.0,1.48,56.75,1,0,3
+CH-00220,2026-07-21,2026-07-21 21:16,2026-07-21 22:00,2026-07-21 23:19,Resgate não creditado,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,0.73,2.05,1,1,3
+CH-00041,2026-07-21,2026-07-21 23:15,2026-07-22 00:22,2026-07-23 18:00,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista A,,Não,4.0,48.0,1.12,42.75,1,1,3
+CH-00249,2026-07-22,2026-07-22 04:41,2026-07-22 05:03,2026-07-23 00:16,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista B,HZ0105,Não,4.0,48.0,0.37,19.58,1,1,4
+CH-00640,2026-07-22,2026-07-22 14:04,2026-07-22 14:09,2026-07-23 11:56,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0083,Sim,2.0,24.0,0.08,21.87,1,1,4
+CH-00145,2026-07-22,2026-07-22 14:27,2026-07-22 15:45,2026-07-24 22:36,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0128,Não,1.0,8.0,1.3,56.15,0,0,4
+CH-00120,2026-07-22,2026-07-22 21:19,2026-07-22 21:54,2026-07-23 09:35,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0094,Não,2.0,24.0,0.58,12.27,1,1,4
+CH-00463,2026-07-23,2026-07-23 00:48,2026-07-23 01:03,2026-07-23 11:04,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,,Não,4.0,48.0,0.25,10.27,1,1,4
+CH-00398,2026-07-23,2026-07-23 01:40,2026-07-23 02:17,2026-07-23 02:39,Relatório / dashboard,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,0.62,0.98,1,1,4
+CH-00391,2026-07-23,2026-07-23 03:30,2026-07-23 07:43,2026-07-24 14:43,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0160,Não,2.0,24.0,4.22,35.22,0,0,4
+CH-00027,2026-07-23,2026-07-23 06:32,2026-07-23 10:23,2026-07-23 14:31,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0148,Não,1.0,8.0,3.85,7.98,0,1,4
+CH-00507,2026-07-23,2026-07-23 08:58,2026-07-23 09:58,2026-07-24 15:44,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista C,,Não,4.0,48.0,1.0,30.77,1,1,4
+CH-00365,2026-07-23,2026-07-23 09:10,2026-07-23 09:21,2026-07-23 11:08,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista A,HZ0140,Não,4.0,48.0,0.18,1.97,1,1,4
+CH-00024,2026-07-23,2026-07-23 10:20,2026-07-23 13:12,2026-07-23 11:45,Importação de base,Crítica,Portal,Resolvido,Analista B,HZ0114,Não,0.5,4.0,2.87,1.42,0,1,4
+CH-00241,2026-07-23,2026-07-23 15:22,2026-07-23 16:05,2026-07-23 20:03,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0179,Não,1.0,8.0,0.72,4.68,1,1,4
+CH-00389,2026-07-23,2026-07-23 22:21,2026-07-23 22:38,2026-07-25 14:39,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,HZ0042,Não,4.0,48.0,0.28,40.3,1,1,4
+CH-00361,2026-07-24,2026-07-24 05:34,2026-07-24 06:39,2026-07-24 06:21,Relatório / dashboard,Crítica,Portal,Resolvido,Analista C,HZ0086,Não,0.5,4.0,1.08,0.78,0,1,4
+CH-00514,2026-07-24,2026-07-24 07:41,2026-07-24 08:07,2026-07-24 12:06,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0109,Não,1.0,8.0,0.43,4.42,1,1,4
+CH-00407,2026-07-24,2026-07-24 12:41,2026-07-24 14:19,2026-07-26 18:50,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista A,,Não,4.0,48.0,1.63,54.15,1,0,4
+CH-00570,2026-07-24,2026-07-24 18:19,2026-07-24 18:24,2026-07-24 18:37,Resgate não creditado,Alta,E-mail,Resolvido,Analista B,HZ0130,Não,1.0,8.0,0.08,0.3,1,1,4
+CH-00182,2026-07-24,2026-07-24 18:39,2026-07-24 20:10,2026-07-24 21:45,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0108,Não,1.0,8.0,1.52,3.1,0,1,4
+CH-00602,2026-07-24,2026-07-24 20:12,2026-07-24 21:56,2026-07-25 04:18,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0027,Não,2.0,24.0,1.73,8.1,1,1,4
+CH-00029,2026-07-24,2026-07-24 20:55,2026-07-24 21:26,,Acesso / login,Média,Portal,Aguardando cliente,Analista A,HZ0172,Não,2.0,24.0,0.52,,1,,4
+CH-00475,2026-07-24,2026-07-24 23:54,2026-07-25 00:10,2026-07-25 02:26,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0122,Não,1.0,8.0,0.27,2.53,1,1,4
+CH-00117,2026-07-25,2026-07-25 04:48,2026-07-25 05:45,2026-07-25 05:09,Resgate não creditado,Crítica,WhatsApp,Resolvido,Analista B,,Não,0.5,4.0,0.95,0.35,0,1,4
+CH-00504,2026-07-25,2026-07-25 14:46,2026-07-25 16:39,,Relatório / dashboard,Média,Portal,Em andamento,Analista A,HZ0099,Não,2.0,24.0,1.88,,1,,4
+CH-00352,2026-07-25,2026-07-25 16:08,2026-07-25 16:17,2026-07-26 08:06,Relatório / dashboard,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,0.15,15.97,1,1,4
+CH-00196,2026-07-25,2026-07-25 16:47,2026-07-25 19:29,2026-07-25 19:05,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0150,Não,1.0,8.0,2.7,2.3,0,1,4
+CH-00445,2026-07-25,2026-07-25 17:46,2026-07-25 18:42,2026-07-26 09:59,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0024,Não,2.0,24.0,0.93,16.22,1,1,4
+CH-00331,2026-07-26,2026-07-26 01:20,2026-07-26 01:25,2026-07-26 14:55,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista C,HZ0094,Não,4.0,48.0,0.08,13.58,1,1,4
+CH-00080,2026-07-26,2026-07-26 03:44,2026-07-26 04:13,2026-07-26 07:51,Importação de base,Crítica,E-mail,Resolvido,Analista B,HZ0029,Não,0.5,4.0,0.48,4.12,1,0,4
+CH-00333,2026-07-26,2026-07-26 14:11,2026-07-26 15:01,2026-07-28 18:08,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista C,HZ0125,Não,4.0,48.0,0.83,51.95,1,0,4
+CH-00065,2026-07-26,2026-07-26 17:01,2026-07-26 18:55,2026-07-28 21:54,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista B,HZ0022,Não,4.0,48.0,1.9,52.88,1,0,4
+CH-00091,2026-07-26,2026-07-26 22:19,2026-07-26 23:41,2026-07-26 22:37,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista B,HZ0158,Não,1.0,8.0,1.37,0.3,0,1,4
+CH-00586,2026-07-27,2026-07-27 00:35,2026-07-27 03:29,,Pontuação divergente,Alta,Portal,Em andamento,Analista C,HZ0057,Não,1.0,8.0,2.9,,0,,4
+CH-00613,2026-07-27,2026-07-27 02:14,2026-07-27 03:34,,Relatório / dashboard,Média,Portal,Aguardando cliente,Analista B,HZ0056,Não,2.0,24.0,1.33,,1,,4
+CH-00509,2026-07-27,2026-07-27 04:11,2026-07-27 04:16,2026-07-28 05:32,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista C,HZ0170,Não,4.0,48.0,0.08,25.35,1,1,4
+CH-00089,2026-07-27,2026-07-27 11:04,2026-07-27 11:13,2026-07-27 15:58,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0079,Não,1.0,8.0,0.15,4.9,1,1,4
+CH-00584,2026-07-27,2026-07-27 18:25,2026-07-27 18:33,2026-07-29 00:44,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,HZ0022,Não,4.0,48.0,0.13,30.32,1,1,4
+CH-00215,2026-07-28,2026-07-28 01:32,2026-07-28 01:53,2026-07-28 17:33,Cadastro de participante,Média,E-mail,Resolvido,Analista B,,Não,2.0,24.0,0.35,16.02,1,1,4
+CH-00052,2026-07-28,2026-07-28 06:16,2026-07-28 06:26,2026-07-29 05:20,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0061,Não,1.0,8.0,0.17,23.07,1,0,4
+CH-00449,2026-07-28,2026-07-28 08:52,2026-07-28 09:46,2026-07-28 12:52,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0005,Não,1.0,8.0,0.9,4.0,1,1,4
+CH-00377,2026-07-28,2026-07-28 11:24,2026-07-28 12:17,2026-07-28 18:43,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0098,Sim,1.0,8.0,0.88,7.32,1,1,4
+CH-00115,2026-07-28,2026-07-28 11:49,2026-07-28 13:01,2026-07-28 12:07,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,1.2,0.3,0,1,4
+CH-00050,2026-07-28,2026-07-28 20:17,2026-07-28 22:53,2026-07-29 07:53,Resgate não creditado,Média,E-mail,Resolvido,Analista A,HZ0126,Não,2.0,24.0,2.6,11.6,0,1,4
+CH-00246,2026-07-28,2026-07-28 20:23,2026-07-28 21:28,2026-07-29 19:00,Relatório / dashboard,Baixa,WhatsApp,Resolvido,Analista B,HZ0052,Não,4.0,48.0,1.08,22.62,1,1,4
+CH-00243,2026-07-29,2026-07-29 01:06,2026-07-29 01:13,2026-07-29 01:24,Dúvida de regulamento,Crítica,Portal,Resolvido,Analista C,HZ0138,Não,0.5,4.0,0.12,0.3,1,1,5
+CH-00306,2026-07-29,2026-07-29 03:22,2026-07-29 03:40,2026-07-29 06:31,Importação de base,Crítica,Portal,Resolvido,Analista C,HZ0079,Não,0.5,4.0,0.3,3.15,1,1,5
+CH-00313,2026-07-29,2026-07-29 09:28,2026-07-29 15:23,2026-07-29 20:19,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0124,Não,1.0,8.0,5.92,10.85,0,0,5
+CH-00299,2026-07-29,2026-07-29 11:02,2026-07-29 12:14,2026-07-29 16:08,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0083,Não,1.0,8.0,1.2,5.1,0,1,5
+CH-00304,2026-07-29,2026-07-29 16:15,2026-07-29 20:27,2026-07-29 18:13,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0160,Não,1.0,8.0,4.2,1.97,0,1,5
+CH-00236,2026-07-29,2026-07-29 17:52,2026-07-29 17:58,2026-07-30 06:31,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0066,Não,1.0,8.0,0.1,12.65,1,0,5
+CH-00168,2026-07-30,2026-07-30 00:57,2026-07-30 01:02,2026-07-30 23:14,Cadastro de participante,Média,E-mail,Resolvido,Analista A,HZ0162,Não,2.0,24.0,0.08,22.28,1,1,5
+CH-00030,2026-07-30,2026-07-30 05:34,2026-07-30 06:05,2026-08-01 08:17,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,,Não,4.0,48.0,0.52,50.72,1,0,5
+CH-00127,2026-07-30,2026-07-30 07:53,2026-07-30 08:19,2026-07-30 10:31,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista B,HZ0144,Não,1.0,8.0,0.43,2.63,1,1,5
+CH-00126,2026-07-30,2026-07-30 08:23,2026-07-30 08:35,2026-07-30 17:32,Pontuação divergente,Média,Portal,Resolvido,Analista B,HZ0049,Não,2.0,24.0,0.2,9.15,1,1,5
+CH-00143,2026-07-30,2026-07-30 09:17,2026-07-30 10:58,2026-07-30 11:39,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0180,Sim,1.0,8.0,1.68,2.37,0,1,5
+CH-00371,2026-07-30,2026-07-30 11:13,2026-07-30 11:45,2026-07-30 13:38,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0114,Não,1.0,8.0,0.53,2.42,1,1,5
+CH-00018,2026-07-30,2026-07-30 13:05,2026-07-30 13:25,2026-07-30 16:54,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0053,Não,1.0,8.0,0.33,3.82,1,1,5
+CH-00560,2026-07-30,2026-07-30 13:29,2026-07-30 14:05,2026-07-30 14:50,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0115,Sim,1.0,8.0,0.6,1.35,1,1,5
+CH-00625,2026-07-30,2026-07-30 13:38,2026-07-30 14:16,2026-07-31 05:18,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Sim,1.0,8.0,0.63,15.67,1,0,5
+CH-00268,2026-07-30,2026-07-30 13:52,2026-07-30 14:02,2026-07-30 20:43,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0169,Não,1.0,8.0,0.17,6.85,1,1,5
+CH-00635,2026-07-30,2026-07-30 15:21,2026-07-30 15:47,2026-07-31 07:00,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0166,Não,1.0,8.0,0.43,15.65,1,0,5
+CH-00099,2026-07-30,2026-07-30 16:06,2026-07-30 18:10,2026-07-31 08:28,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0060,Não,1.0,8.0,2.07,16.37,0,0,5
+CH-00611,2026-07-30,2026-07-30 16:32,2026-07-30 17:07,2026-07-30 17:58,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0052,Sim,1.0,8.0,0.58,1.43,1,1,5
+CH-00011,2026-07-30,2026-07-30 18:05,2026-07-30 18:53,2026-07-30 19:01,Resgate não creditado,Alta,Portal,Resolvido,Analista B,,Não,1.0,8.0,0.8,0.93,1,1,5
+CH-00390,2026-07-31,2026-07-31 00:31,2026-07-31 01:04,2026-07-31 10:05,Acesso / login,Média,E-mail,Resolvido,Analista A,,Não,2.0,24.0,0.55,9.57,1,1,5
+CH-00170,2026-07-31,2026-07-31 07:30,2026-07-31 08:43,2026-07-31 11:18,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista A,,Não,2.0,24.0,1.22,3.8,1,1,5
+CH-00114,2026-07-31,2026-07-31 08:09,2026-07-31 09:22,2026-07-31 11:27,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0147,Sim,1.0,8.0,1.22,3.3,0,1,5
+CH-00053,2026-07-31,2026-07-31 12:35,2026-07-31 12:55,2026-08-01 01:18,Pontuação divergente,Média,WhatsApp,Resolvido,Analista A,HZ0077,Sim,2.0,24.0,0.33,12.72,1,1,5
+CH-00555,2026-07-31,2026-07-31 12:48,2026-07-31 14:26,2026-08-01 06:51,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,,Não,1.0,8.0,1.63,18.05,0,0,5
+CH-00573,2026-07-31,2026-07-31 12:48,2026-07-31 14:09,,Pontuação divergente,Alta,WhatsApp,Em andamento,Analista C,HZ0131,Não,1.0,8.0,1.35,,0,,5
+CH-00519,2026-07-31,2026-07-31 13:06,2026-07-31 14:00,,Acesso / login,Média,Portal,Aguardando cliente,Analista B,HZ0086,Não,2.0,24.0,0.9,,1,,5
+CH-00285,2026-07-31,2026-07-31 13:15,2026-07-31 21:20,2026-07-31 15:18,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0174,Sim,1.0,8.0,8.08,2.05,0,1,5
+CH-00367,2026-07-31,2026-07-31 13:33,2026-07-31 14:42,2026-08-01 17:36,Pontuação divergente,Média,E-mail,Resolvido,Analista A,HZ0028,Não,2.0,24.0,1.15,28.05,1,0,5
+CH-00362,2026-07-31,2026-07-31 13:44,2026-07-31 16:32,,Pontuação divergente,Alta,WhatsApp,Aguardando cliente,Analista C,HZ0069,Sim,1.0,8.0,2.8,,0,,5
+CH-00512,2026-07-31,2026-07-31 17:33,2026-07-31 18:24,2026-08-01 10:50,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0038,Não,1.0,8.0,0.85,17.28,1,0,5
+CH-00025,2026-07-31,2026-07-31 21:14,2026-07-31 22:05,2026-07-31 23:01,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0056,Não,1.0,8.0,0.85,1.78,1,1,5
+CH-00530,2026-08-01,2026-08-01 00:05,2026-08-01 03:00,2026-08-01 00:23,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0043,Não,2.0,24.0,2.92,0.3,0,1,5
+CH-00484,2026-08-01,2026-08-01 04:42,2026-08-01 05:39,2026-08-01 08:45,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista B,HZ0153,Não,4.0,48.0,0.95,4.05,1,1,5
+CH-00308,2026-08-01,2026-08-01 06:27,2026-08-01 07:22,2026-08-02 01:03,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0161,Não,2.0,24.0,0.92,18.6,1,1,5
+CH-00242,2026-08-01,2026-08-01 08:41,2026-08-01 08:57,2026-08-01 12:38,Acesso / login,Média,WhatsApp,Resolvido,Analista C,HZ0130,Não,2.0,24.0,0.27,3.95,1,1,5
+CH-00230,2026-08-01,2026-08-01 08:45,2026-08-01 09:18,2026-08-01 10:25,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,HZ0135,Não,4.0,48.0,0.55,1.67,1,1,5
+CH-00543,2026-08-01,2026-08-01 09:40,2026-08-01 12:33,2026-08-02 20:53,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0100,Não,1.0,8.0,2.88,35.22,0,0,5
+CH-00538,2026-08-01,2026-08-01 12:51,2026-08-01 13:32,2026-08-01 23:03,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0180,Não,1.0,8.0,0.68,10.2,1,0,5
+CH-00579,2026-08-01,2026-08-01 13:23,2026-08-01 13:37,2026-08-01 14:44,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista C,HZ0115,Não,1.0,8.0,0.23,1.35,1,1,5
+CH-00105,2026-08-01,2026-08-01 14:36,2026-08-01 15:16,2026-08-01 16:42,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0118,Não,1.0,8.0,0.67,2.1,1,1,5
+CH-00303,2026-08-01,2026-08-01 14:47,2026-08-01 20:14,,Pontuação divergente,Alta,WhatsApp,Em andamento,Analista B,HZ0076,Não,1.0,8.0,5.45,,0,,5
+CH-00235,2026-08-01,2026-08-01 16:06,2026-08-01 16:19,2026-08-01 23:08,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,HZ0010,Não,1.0,8.0,0.22,7.03,1,1,5
+CH-00327,2026-08-01,2026-08-01 17:20,2026-08-01 21:50,2026-08-02 06:27,Pontuação divergente,Média,E-mail,Resolvido,Analista C,HZ0162,Não,2.0,24.0,4.5,13.12,0,1,5
+CH-00608,2026-08-01,2026-08-01 21:20,2026-08-01 23:11,2026-08-02 06:49,Relatório / dashboard,Média,Portal,Resolvido,Analista A,,Não,2.0,24.0,1.85,9.48,1,1,5
+CH-00263,2026-08-02,2026-08-02 01:37,2026-08-02 02:36,2026-08-02 05:26,Relatório / dashboard,Média,Portal,Resolvido,Analista A,HZ0022,Não,2.0,24.0,0.98,3.82,1,1,5
+CH-00301,2026-08-02,2026-08-02 04:11,2026-08-02 04:47,2026-08-03 10:02,Pontuação divergente,Baixa,Portal,Resolvido,Analista A,,Não,4.0,48.0,0.6,29.85,1,1,5
+CH-00206,2026-08-02,2026-08-02 05:01,2026-08-02 05:14,2026-08-05 01:44,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista A,HZ0133,Não,4.0,48.0,0.22,68.72,1,0,5
+CH-00460,2026-08-02,2026-08-02 08:36,2026-08-02 08:47,2026-08-04 05:45,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,HZ0147,Não,4.0,48.0,0.18,45.15,1,1,5
+CH-00094,2026-08-02,2026-08-02 09:07,2026-08-02 10:36,2026-08-03 03:04,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0019,Não,1.0,8.0,1.48,17.95,0,0,5
+CH-00523,2026-08-02,2026-08-02 10:16,2026-08-02 13:35,2026-08-02 17:26,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0067,Não,1.0,8.0,3.32,7.17,0,1,5
+CH-00505,2026-08-02,2026-08-02 11:12,2026-08-02 11:48,2026-08-02 11:30,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0028,Não,1.0,8.0,0.6,0.3,1,1,5
+CH-00406,2026-08-02,2026-08-02 11:53,2026-08-02 12:56,2026-08-02 14:02,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0163,Não,1.0,8.0,1.05,2.15,0,1,5
+CH-00001,2026-08-02,2026-08-02 12:37,2026-08-02 12:51,2026-08-03 06:02,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista B,HZ0032,Não,2.0,24.0,0.23,17.42,1,1,5
+CH-00210,2026-08-02,2026-08-02 13:39,2026-08-02 16:23,2026-08-02 14:10,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0168,Não,1.0,8.0,2.73,0.52,0,1,5
+CH-00297,2026-08-02,2026-08-02 14:03,2026-08-02 14:30,2026-08-02 18:41,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0140,Sim,1.0,8.0,0.45,4.63,1,1,5
+CH-00634,2026-08-02,2026-08-02 15:44,2026-08-02 15:59,2026-08-03 10:24,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0153,Não,2.0,24.0,0.25,18.67,1,1,5
+CH-00162,2026-08-02,2026-08-02 17:46,2026-08-02 19:34,2026-08-02 18:04,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0114,Não,1.0,8.0,1.8,0.3,0,1,5
+CH-00499,2026-08-02,2026-08-02 18:12,2026-08-02 19:17,2026-08-04 17:18,Pontuação divergente,Baixa,Portal,Resolvido,Analista C,HZ0104,Não,4.0,48.0,1.08,47.1,1,1,5
+CH-00028,2026-08-02,2026-08-02 20:43,2026-08-02 23:06,2026-08-02 22:08,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0142,Não,2.0,24.0,2.38,1.42,0,1,5
+CH-00432,2026-08-03,2026-08-03 01:55,2026-08-03 03:13,2026-08-04 07:53,Pontuação divergente,Baixa,Portal,Resolvido,Analista A,HZ0135,Não,4.0,48.0,1.3,29.97,1,1,5
+CH-00134,2026-08-03,2026-08-03 04:39,2026-08-03 05:39,2026-08-04 08:12,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista C,HZ0119,Não,4.0,48.0,1.0,27.55,1,1,5
+CH-00100,2026-08-03,2026-08-03 08:59,2026-08-03 10:04,2026-08-03 13:03,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0139,Não,1.0,8.0,1.08,4.07,0,1,5
+CH-00290,2026-08-03,2026-08-03 09:16,2026-08-03 10:44,2026-08-03 17:33,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0121,Não,1.0,8.0,1.47,8.28,0,0,5
+CH-00506,2026-08-03,2026-08-03 10:49,2026-08-03 12:24,2026-08-03 19:37,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0046,Não,1.0,8.0,1.58,8.8,0,0,5
+CH-00137,2026-08-03,2026-08-03 11:14,2026-08-03 14:29,2026-08-04 05:41,Pontuação divergente,Baixa,Portal,Resolvido,Analista A,HZ0077,Não,4.0,48.0,3.25,18.45,1,1,5
+CH-00419,2026-08-03,2026-08-03 11:44,2026-08-03 12:28,2026-08-03 12:18,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0131,Não,1.0,8.0,0.73,0.57,1,1,5
+CH-00508,2026-08-03,2026-08-03 12:35,2026-08-03 14:21,2026-08-04 05:29,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0022,Não,1.0,8.0,1.77,16.9,0,0,5
+CH-00211,2026-08-03,2026-08-03 12:40,2026-08-03 14:58,2026-08-04 15:39,Resgate não creditado,Média,Portal,Resolvido,Analista B,,Não,2.0,24.0,2.3,26.98,0,0,5
+CH-00405,2026-08-03,2026-08-03 12:50,2026-08-03 13:11,2026-08-03 13:14,Resgate não creditado,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,0.35,0.4,1,1,5
+CH-00045,2026-08-03,2026-08-03 12:52,2026-08-03 13:19,2026-08-03 19:27,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0083,Sim,1.0,8.0,0.45,6.58,1,1,5
+CH-00471,2026-08-03,2026-08-03 12:58,2026-08-03 13:23,2026-08-04 05:54,Pontuação divergente,Média,Portal,Resolvido,Analista C,HZ0150,Sim,2.0,24.0,0.42,16.93,1,1,5
+CH-00410,2026-08-03,2026-08-03 13:00,2026-08-03 14:30,,Pontuação divergente,Alta,Portal,Aguardando cliente,Analista B,HZ0133,Não,1.0,8.0,1.5,,0,,5
+CH-00074,2026-08-03,2026-08-03 14:18,2026-08-03 16:45,2026-08-04 18:00,Pontuação divergente,Média,Portal,Resolvido,Analista A,HZ0012,Sim,2.0,24.0,2.45,27.7,0,0,5
+CH-00459,2026-08-03,2026-08-03 15:10,2026-08-03 15:54,2026-08-04 03:05,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0032,Não,1.0,8.0,0.73,11.92,1,0,5
+CH-00277,2026-08-03,2026-08-03 17:20,2026-08-03 18:34,2026-08-03 23:42,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0172,Não,1.0,8.0,1.23,6.37,0,1,5
+CH-00312,2026-08-03,2026-08-03 17:59,2026-08-03 18:26,2026-08-03 19:49,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0074,Não,1.0,8.0,0.45,1.83,1,1,5
+CH-00227,2026-08-04,2026-08-04 07:58,2026-08-04 08:19,2026-08-04 13:14,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,HZ0103,Não,4.0,48.0,0.35,5.27,1,1,5
+CH-00358,2026-08-04,2026-08-04 08:54,2026-08-04 09:22,,Pontuação divergente,Alta,Portal,Aguardando cliente,Analista A,HZ0020,Não,1.0,8.0,0.47,,1,,5
+CH-00139,2026-08-04,2026-08-04 09:28,2026-08-04 09:41,2026-08-04 12:05,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0040,Não,1.0,8.0,0.22,2.62,1,1,5
+CH-00344,2026-08-04,2026-08-04 09:42,2026-08-04 09:53,2026-08-04 20:04,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0105,Sim,1.0,8.0,0.18,10.37,1,0,5
+CH-00255,2026-08-04,2026-08-04 11:28,2026-08-04 14:50,,Pontuação divergente,Alta,Portal,Aguardando cliente,Analista B,HZ0178,Não,1.0,8.0,3.37,,0,,5
+CH-00056,2026-08-04,2026-08-04 13:08,2026-08-04 13:18,,Pontuação divergente,Alta,Portal,Aguardando cliente,Analista A,HZ0097,Não,1.0,8.0,0.17,,1,,5
+CH-00470,2026-08-04,2026-08-04 14:36,2026-08-04 14:49,2026-08-04 17:00,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista B,HZ0015,Não,1.0,8.0,0.22,2.4,1,1,5
+CH-00380,2026-08-04,2026-08-04 15:12,2026-08-04 15:27,2026-08-07 17:53,Pontuação divergente,Baixa,Portal,Resolvido,Analista A,HZ0150,Não,4.0,48.0,0.25,74.68,1,0,5
+CH-00513,2026-08-04,2026-08-04 15:12,2026-08-04 16:37,2026-08-04 17:21,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,HZ0145,Não,1.0,8.0,1.42,2.15,0,1,5
+CH-00316,2026-08-04,2026-08-04 15:29,2026-08-04 15:39,2026-08-04 23:50,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0112,Sim,1.0,8.0,0.17,8.35,1,0,5
+CH-00102,2026-08-04,2026-08-04 16:39,2026-08-04 17:41,2026-08-05 09:22,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0176,Não,1.0,8.0,1.03,16.72,0,0,5
+CH-00424,2026-08-04,2026-08-04 21:42,2026-08-04 22:40,2026-08-05 02:11,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0127,Não,1.0,8.0,0.97,4.48,1,1,5
+CH-00289,2026-08-04,2026-08-04 22:53,2026-08-04 23:52,2026-08-05 00:14,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista A,HZ0048,Não,1.0,8.0,0.98,1.35,1,1,5
+CH-00502,2026-08-05,2026-08-05 01:24,2026-08-05 03:50,2026-08-05 01:42,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0176,Não,2.0,24.0,2.43,0.3,0,1,6
+CH-00096,2026-08-05,2026-08-05 02:25,2026-08-05 03:20,2026-08-07 16:40,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,,Não,4.0,48.0,0.92,62.25,1,0,6
+CH-00133,2026-08-05,2026-08-05 02:55,2026-08-05 03:49,2026-08-05 12:13,Acesso / login,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,0.9,9.3,1,1,6
+CH-00129,2026-08-05,2026-08-05 05:05,2026-08-05 05:12,2026-08-05 20:55,Cadastro de participante,Média,Portal,Resolvido,Analista A,HZ0046,Não,2.0,24.0,0.12,15.83,1,1,6
+CH-00522,2026-08-05,2026-08-05 06:32,2026-08-05 08:31,2026-08-05 06:50,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0131,Não,2.0,24.0,1.98,0.3,1,1,6
+CH-00455,2026-08-05,2026-08-05 11:23,2026-08-05 11:44,2026-08-05 16:09,Cadastro de participante,Média,E-mail,Resolvido,Analista A,,Não,2.0,24.0,0.35,4.77,1,1,6
+CH-00005,2026-08-05,2026-08-05 14:52,2026-08-05 17:31,2026-08-05 22:43,Importação de base,Crítica,WhatsApp,Resolvido,Analista A,HZ0047,Não,0.5,4.0,2.65,7.85,0,0,6
+CH-00253,2026-08-05,2026-08-05 20:33,2026-08-05 21:21,2026-08-06 03:46,Importação de base,Crítica,E-mail,Resolvido,Analista A,HZ0145,Não,0.5,4.0,0.8,7.22,0,0,6
+CH-00558,2026-08-05,2026-08-05 21:43,2026-08-05 22:50,2026-08-07 08:50,Pontuação divergente,Baixa,Portal,Resolvido,Analista A,HZ0051,Não,4.0,48.0,1.12,35.12,1,1,6
+CH-00311,2026-08-05,2026-08-05 21:45,2026-08-06 02:02,2026-08-06 08:48,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0142,Não,2.0,24.0,4.28,11.05,0,1,6
+CH-00614,2026-08-06,2026-08-06 07:42,2026-08-06 08:38,2026-08-06 09:27,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0118,Não,1.0,8.0,0.93,1.75,1,1,6
+CH-00009,2026-08-06,2026-08-06 10:14,2026-08-06 10:51,2026-08-06 11:35,Importação de base,Crítica,Portal,Resolvido,Analista B,HZ0160,Não,0.5,4.0,0.62,1.35,0,1,6
+CH-00082,2026-08-06,2026-08-06 12:16,2026-08-06 14:32,2026-08-06 14:27,Acesso / login,Média,WhatsApp,Resolvido,Analista A,,Não,2.0,24.0,2.27,2.18,0,1,6
+CH-00516,2026-08-07,2026-08-07 03:10,2026-08-07 04:46,,Acesso / login,Média,Portal,Em andamento,Analista A,HZ0051,Sim,2.0,24.0,1.6,,1,,6
+CH-00580,2026-08-07,2026-08-07 04:29,2026-08-07 04:58,2026-08-08 02:58,Pontuação divergente,Alta,Portal,Resolvido,Analista B,,Não,1.0,8.0,0.48,22.48,1,0,6
+CH-00595,2026-08-07,2026-08-07 05:58,2026-08-07 06:12,2026-08-07 08:31,Cadastro de participante,Média,WhatsApp,Resolvido,Analista A,HZ0154,Não,2.0,24.0,0.23,2.55,1,1,6
+CH-00032,2026-08-07,2026-08-07 12:20,2026-08-07 12:25,2026-08-07 14:33,Resgate não creditado,Alta,E-mail,Resolvido,Analista A,HZ0101,Não,1.0,8.0,0.08,2.22,1,1,6
+CH-00492,2026-08-07,2026-08-07 14:03,2026-08-07 15:01,2026-08-07 19:37,Relatório / dashboard,Baixa,E-mail,Resolvido,Analista B,HZ0009,Não,4.0,48.0,0.97,5.57,1,1,6
+CH-00399,2026-08-07,2026-08-07 16:16,2026-08-07 18:14,2026-08-07 17:40,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista B,HZ0133,Não,4.0,48.0,1.97,1.4,1,1,6
+CH-00468,2026-08-08,2026-08-08 01:01,2026-08-08 01:15,2026-08-08 06:01,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista C,HZ0131,Não,1.0,8.0,0.23,5.0,1,1,6
+CH-00480,2026-08-08,2026-08-08 02:54,2026-08-08 03:10,2026-08-08 04:04,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0087,Não,2.0,24.0,0.27,1.17,1,1,6
+CH-00037,2026-08-08,2026-08-08 10:04,2026-08-08 13:12,,Pontuação divergente,Alta,Portal,Em andamento,Analista A,HZ0006,Não,1.0,8.0,3.13,,0,,6
+CH-00309,2026-08-08,2026-08-08 11:29,2026-08-08 11:53,2026-08-08 19:36,Resgate não creditado,Baixa,Portal,Resolvido,Analista B,,Não,4.0,48.0,0.4,8.12,1,1,6
+CH-00051,2026-08-08,2026-08-08 15:01,2026-08-08 15:12,2026-08-08 15:54,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0177,Não,2.0,24.0,0.18,0.88,1,1,6
+CH-00150,2026-08-09,2026-08-09 00:06,2026-08-09 01:23,2026-08-09 10:11,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0177,Não,1.0,8.0,1.28,10.08,0,0,6
+CH-00536,2026-08-09,2026-08-09 00:58,2026-08-09 01:28,2026-08-09 04:09,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0109,Não,1.0,8.0,0.5,3.18,1,1,6
+CH-00293,2026-08-09,2026-08-09 06:07,2026-08-09 07:00,2026-08-09 20:46,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0012,Não,2.0,24.0,0.88,14.65,1,1,6
+CH-00431,2026-08-09,2026-08-09 10:04,2026-08-09 11:55,2026-08-10 04:46,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0030,Não,1.0,8.0,1.85,18.7,0,0,6
+CH-00043,2026-08-09,2026-08-09 10:57,2026-08-09 11:02,2026-08-10 05:56,Acesso / login,Média,E-mail,Resolvido,Analista A,HZ0115,Não,2.0,24.0,0.08,18.98,1,1,6
+CH-00415,2026-08-09,2026-08-09 12:19,2026-08-09 13:26,,Resgate não creditado,Alta,Portal,Em andamento,Analista B,HZ0047,Não,1.0,8.0,1.12,,0,,6
+CH-00016,2026-08-09,2026-08-09 16:26,2026-08-09 17:42,2026-08-09 18:11,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0040,Não,1.0,8.0,1.27,1.75,0,1,6
+CH-00095,2026-08-09,2026-08-09 18:22,2026-08-09 19:02,2026-08-10 15:45,Cadastro de participante,Média,Portal,Resolvido,Analista A,HZ0083,Não,2.0,24.0,0.67,21.38,1,1,6
+CH-00337,2026-08-09,2026-08-09 20:39,2026-08-09 20:45,2026-08-10 19:45,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.1,23.1,1,0,6
+CH-00250,2026-08-10,2026-08-10 00:29,2026-08-10 04:36,2026-08-10 17:01,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,HZ0136,Não,1.0,8.0,4.12,16.53,0,0,6
+CH-00204,2026-08-10,2026-08-10 01:07,2026-08-10 01:30,2026-08-10 09:55,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0151,Não,4.0,48.0,0.38,8.8,1,1,6
+CH-00119,2026-08-10,2026-08-10 02:10,2026-08-10 03:02,,Acesso / login,Média,E-mail,Em andamento,Analista A,,Não,2.0,24.0,0.87,,1,,6
+CH-00039,2026-08-10,2026-08-10 03:02,2026-08-10 03:46,2026-08-10 13:45,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0073,Não,2.0,24.0,0.73,10.72,1,1,6
+CH-00413,2026-08-10,2026-08-10 05:27,2026-08-10 06:37,2026-08-10 22:36,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista C,HZ0158,Não,4.0,48.0,1.17,17.15,1,1,6
+CH-00488,2026-08-10,2026-08-10 06:41,2026-08-10 07:43,2026-08-11 06:45,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0065,Não,4.0,48.0,1.03,24.07,1,1,6
+CH-00351,2026-08-10,2026-08-10 16:33,2026-08-10 16:57,2026-08-10 22:54,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0015,Não,1.0,8.0,0.4,6.35,1,1,6
+CH-00532,2026-08-10,2026-08-10 20:29,2026-08-10 20:53,2026-08-11 08:07,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0011,Sim,1.0,8.0,0.4,11.63,1,0,6
+CH-00411,2026-08-11,2026-08-11 07:34,2026-08-11 07:48,2026-08-11 09:41,Relatório / dashboard,Média,Portal,Resolvido,Analista A,HZ0172,Não,2.0,24.0,0.23,2.12,1,1,6
+CH-00537,2026-08-11,2026-08-11 09:06,2026-08-11 13:09,,Resgate não creditado,Alta,Portal,Em andamento,Analista A,HZ0073,Não,1.0,8.0,4.05,,0,,6
+CH-00075,2026-08-11,2026-08-11 10:36,2026-08-11 10:41,2026-08-11 18:19,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0008,Não,1.0,8.0,0.08,7.72,1,1,6
+CH-00369,2026-08-11,2026-08-11 15:44,2026-08-11 19:20,2026-08-11 19:44,Cadastro de participante,Média,Portal,Resolvido,Analista A,,Não,2.0,24.0,3.6,4.0,0,1,6
+CH-00478,2026-08-11,2026-08-11 17:17,2026-08-11 21:57,2026-08-12 12:46,Pontuação divergente,Média,Portal,Resolvido,Analista C,HZ0109,Não,2.0,24.0,4.67,19.48,0,1,6
+CH-00503,2026-08-12,2026-08-12 08:22,2026-08-12 10:35,2026-08-12 13:40,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0045,Não,2.0,24.0,2.22,5.3,0,1,7
+CH-00479,2026-08-13,2026-08-13 00:03,2026-08-13 00:08,2026-08-13 04:52,Pontuação divergente,Média,Portal,Resolvido,Analista A,HZ0134,Não,2.0,24.0,0.08,4.82,1,1,7
+CH-00440,2026-08-13,2026-08-13 02:38,2026-08-13 05:55,2026-08-13 08:39,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0154,Não,1.0,8.0,3.28,6.02,0,1,7
+CH-00092,2026-08-13,2026-08-13 05:28,2026-08-13 05:47,2026-08-13 05:46,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0138,Não,1.0,8.0,0.32,0.3,1,1,7
+CH-00221,2026-08-13,2026-08-13 06:20,2026-08-13 06:33,2026-08-13 11:07,Pontuação divergente,Alta,Portal,Resolvido,Analista B,,Sim,1.0,8.0,0.22,4.78,1,1,7
+CH-00218,2026-08-13,2026-08-13 08:04,2026-08-13 08:25,2026-08-14 05:34,Resgate não creditado,Baixa,Portal,Resolvido,Analista C,HZ0069,Não,4.0,48.0,0.35,21.5,1,1,7
+CH-00396,2026-08-13,2026-08-13 17:12,2026-08-13 17:43,2026-08-14 01:32,Importação de base,Crítica,Portal,Resolvido,Analista A,,Não,0.5,4.0,0.52,8.33,0,0,7
+CH-00447,2026-08-13,2026-08-13 22:41,2026-08-14 02:15,2026-08-15 02:46,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Sim,1.0,8.0,3.57,28.08,0,0,7
+CH-00576,2026-08-13,2026-08-13 23:08,2026-08-13 23:45,2026-08-15 13:22,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0077,Não,1.0,8.0,0.62,38.23,1,0,7
+CH-00452,2026-08-14,2026-08-14 01:09,2026-08-14 01:25,2026-08-14 07:21,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0061,Não,1.0,8.0,0.27,6.2,1,1,7
+CH-00446,2026-08-14,2026-08-14 08:19,2026-08-14 10:46,2026-08-18 15:27,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0063,Não,4.0,48.0,2.45,103.13,1,0,7
+CH-00620,2026-08-14,2026-08-14 09:53,2026-08-14 10:05,2026-08-15 13:51,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0089,Não,2.0,24.0,0.2,27.97,1,0,7
+CH-00565,2026-08-15,2026-08-15 02:17,2026-08-15 02:53,2026-08-15 15:27,Importação de base,Crítica,Portal,Resolvido,Analista A,HZ0055,Não,0.5,4.0,0.6,13.17,0,0,7
+CH-00188,2026-08-15,2026-08-15 03:31,2026-08-15 06:56,2026-08-15 11:21,Resgate não creditado,Alta,E-mail,Resolvido,Analista A,HZ0139,Não,1.0,8.0,3.42,7.83,0,1,7
+CH-00048,2026-08-15,2026-08-15 19:08,2026-08-15 21:12,2026-08-16 20:43,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,HZ0077,Não,1.0,8.0,2.07,25.58,0,0,7
+CH-00559,2026-08-15,2026-08-15 19:47,2026-08-15 21:28,2026-08-16 01:14,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0009,Não,2.0,24.0,1.68,5.45,1,1,7
+CH-00083,2026-08-16,2026-08-16 00:40,2026-08-16 03:01,2026-08-16 06:17,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0160,Não,4.0,48.0,2.35,5.62,1,1,7
+CH-00123,2026-08-16,2026-08-16 01:32,2026-08-16 01:40,2026-08-16 05:41,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0126,Não,1.0,8.0,0.13,4.15,1,1,7
+CH-00071,2026-08-16,2026-08-16 02:41,2026-08-16 03:21,2026-08-16 04:54,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,0.67,2.22,1,1,7
+CH-00420,2026-08-16,2026-08-16 09:27,2026-08-16 11:43,2026-08-16 10:37,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista B,HZ0023,Não,1.0,8.0,2.27,1.17,0,1,7
+CH-00270,2026-08-16,2026-08-16 19:07,2026-08-16 22:53,2026-08-17 21:32,Acesso / login,Média,WhatsApp,Resolvido,Analista B,HZ0033,Não,2.0,24.0,3.77,26.42,0,0,7
+CH-00209,2026-08-16,2026-08-16 20:27,2026-08-16 20:51,2026-08-17 05:13,Importação de base,Crítica,WhatsApp,Resolvido,Analista B,HZ0176,Não,0.5,4.0,0.4,8.77,1,0,7
+CH-00265,2026-08-16,2026-08-16 20:39,2026-08-16 22:13,2026-08-17 13:11,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0069,Não,2.0,24.0,1.57,16.53,1,1,7
+CH-00467,2026-08-16,2026-08-16 20:56,2026-08-16 22:47,2026-08-18 08:24,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0024,Não,2.0,24.0,1.85,35.47,1,0,7
+CH-00357,2026-08-16,2026-08-16 21:50,2026-08-16 22:05,2026-08-16 23:19,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0031,Não,1.0,8.0,0.25,1.48,1,1,7
+CH-00416,2026-08-17,2026-08-17 01:51,2026-08-17 06:23,,Pontuação divergente,Alta,WhatsApp,Aguardando cliente,Analista C,HZ0119,Não,1.0,8.0,4.53,,0,,7
+CH-00437,2026-08-17,2026-08-17 03:58,2026-08-17 06:28,2026-08-17 07:07,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0011,Não,1.0,8.0,2.5,3.15,0,1,7
+CH-00004,2026-08-17,2026-08-17 07:37,2026-08-17 08:19,2026-08-18 22:31,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0131,Não,1.0,8.0,0.7,38.9,1,0,7
+CH-00098,2026-08-17,2026-08-17 11:37,2026-08-17 11:42,2026-08-17 17:57,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0116,Não,1.0,8.0,0.08,6.33,1,1,7
+CH-00219,2026-08-17,2026-08-17 16:15,2026-08-17 16:40,2026-08-18 13:17,Dúvida de regulamento,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.42,21.03,1,0,7
+CH-00087,2026-08-17,2026-08-17 19:17,2026-08-17 20:27,2026-08-18 01:57,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0038,Não,1.0,8.0,1.17,6.67,0,1,7
+CH-00535,2026-08-18,2026-08-18 00:54,2026-08-18 02:08,2026-08-18 08:55,Pontuação divergente,Baixa,WhatsApp,Resolvido,Analista B,HZ0081,Não,4.0,48.0,1.23,8.02,1,1,7
+CH-00497,2026-08-18,2026-08-18 00:59,2026-08-18 01:12,2026-08-18 01:22,Dúvida de regulamento,Média,Portal,Resolvido,Analista C,HZ0078,Não,2.0,24.0,0.22,0.38,1,1,7
+CH-00054,2026-08-18,2026-08-18 04:44,2026-08-18 05:32,,Acesso / login,Média,E-mail,Em andamento,Analista C,HZ0049,Não,2.0,24.0,0.8,,1,,7
+CH-00384,2026-08-18,2026-08-18 06:20,2026-08-18 07:50,2026-08-18 13:10,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0025,Não,2.0,24.0,1.5,6.83,1,1,7
+CH-00232,2026-08-18,2026-08-18 14:24,2026-08-18 14:29,2026-08-19 20:11,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0111,Não,2.0,24.0,0.08,29.78,1,0,7
+CH-00403,2026-08-19,2026-08-19 08:19,2026-08-19 09:41,2026-08-19 16:13,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0013,Não,2.0,24.0,1.37,7.9,1,1,8
+CH-00276,2026-08-19,2026-08-19 13:01,2026-08-19 13:08,2026-08-20 07:24,Acesso / login,Média,E-mail,Resolvido,Analista A,HZ0077,Não,2.0,24.0,0.12,18.38,1,1,8
+CH-00567,2026-08-19,2026-08-19 19:38,2026-08-19 19:43,,Pontuação divergente,Alta,WhatsApp,Aguardando cliente,Analista C,HZ0003,Não,1.0,8.0,0.08,,1,,8
+CH-00588,2026-08-19,2026-08-19 23:17,2026-08-20 02:05,2026-08-20 02:17,Acesso / login,Alta,Portal,Resolvido,Analista C,HZ0026,Não,1.0,8.0,2.8,3.0,0,1,8
+CH-00254,2026-08-20,2026-08-20 00:43,2026-08-20 02:53,,Relatório / dashboard,Média,Portal,Aguardando cliente,Analista B,HZ0091,Não,2.0,24.0,2.17,,0,,8
+CH-00015,2026-08-20,2026-08-20 02:58,2026-08-20 05:33,2026-08-20 05:42,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista A,HZ0064,Não,1.0,8.0,2.58,2.73,0,1,8
+CH-00266,2026-08-20,2026-08-20 04:18,2026-08-20 04:29,2026-08-20 14:49,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista B,HZ0057,Não,4.0,48.0,0.18,10.52,1,1,8
+CH-00314,2026-08-20,2026-08-20 19:58,2026-08-20 20:15,2026-08-21 01:55,Acesso / login,Média,WhatsApp,Resolvido,Analista C,HZ0096,Não,2.0,24.0,0.28,5.95,1,1,8
+CH-00564,2026-08-20,2026-08-20 21:32,2026-08-20 22:46,2026-08-21 00:34,Relatório / dashboard,Alta,Portal,Resolvido,Analista C,HZ0093,Não,1.0,8.0,1.23,3.03,0,1,8
+CH-00581,2026-08-21,2026-08-21 05:34,2026-08-21 06:07,2026-08-22 17:05,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista A,HZ0142,Não,4.0,48.0,0.55,35.52,1,1,8
+CH-00103,2026-08-21,2026-08-21 05:43,2026-08-21 07:31,2026-08-24 08:01,Resgate não creditado,Baixa,E-mail,Resolvido,Analista C,HZ0087,Não,4.0,48.0,1.8,74.3,1,0,8
+CH-00526,2026-08-21,2026-08-21 07:25,2026-08-21 07:47,2026-08-21 11:15,Importação de base,Crítica,Portal,Resolvido,Analista A,HZ0026,Não,0.5,4.0,0.37,3.83,1,1,8
+CH-00034,2026-08-21,2026-08-21 08:09,2026-08-21 08:41,2026-08-21 17:49,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,,Não,4.0,48.0,0.53,9.67,1,1,8
+CH-00591,2026-08-21,2026-08-21 09:30,2026-08-21 12:47,2026-08-22 00:59,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0012,Não,2.0,24.0,3.28,15.48,0,1,8
+CH-00296,2026-08-21,2026-08-21 13:06,2026-08-21 13:17,2026-08-21 13:24,Importação de base,Crítica,E-mail,Resolvido,Analista A,HZ0003,Não,0.5,4.0,0.18,0.3,1,1,8
+CH-00057,2026-08-21,2026-08-21 14:23,2026-08-21 17:47,2026-08-21 17:12,Resgate não creditado,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,3.4,2.82,0,1,8
+CH-00618,2026-08-21,2026-08-21 15:54,2026-08-21 18:12,2026-08-21 17:04,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0102,Não,1.0,8.0,2.3,1.17,0,1,8
+CH-00192,2026-08-21,2026-08-21 15:58,2026-08-21 16:16,2026-08-22 05:48,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0069,Não,2.0,24.0,0.3,13.83,1,1,8
+CH-00531,2026-08-21,2026-08-21 17:33,2026-08-21 17:52,2026-08-21 19:02,Relatório / dashboard,Média,Portal,Resolvido,Analista B,HZ0095,Não,2.0,24.0,0.32,1.48,1,1,8
+CH-00379,2026-08-22,2026-08-22 00:41,2026-08-22 00:59,2026-08-22 05:58,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0056,Não,2.0,24.0,0.3,5.28,1,1,8
+CH-00383,2026-08-22,2026-08-22 03:30,2026-08-22 08:40,2026-08-22 04:04,Importação de base,Crítica,Portal,Resolvido,Analista C,HZ0089,Não,0.5,4.0,5.17,0.57,0,1,8
+CH-00138,2026-08-22,2026-08-22 03:59,2026-08-22 04:22,2026-08-22 12:29,Relatório / dashboard,Média,E-mail,Resolvido,Analista A,HZ0022,Não,2.0,24.0,0.38,8.5,1,1,8
+CH-00527,2026-08-22,2026-08-22 04:43,2026-08-22 05:44,2026-08-23 12:10,Relatório / dashboard,Média,E-mail,Resolvido,Analista C,HZ0160,Não,2.0,24.0,1.02,31.45,1,0,8
+CH-00326,2026-08-22,2026-08-22 14:54,2026-08-22 16:15,,Dúvida de regulamento,Baixa,Portal,Aguardando cliente,Analista C,HZ0119,Não,4.0,48.0,1.35,,1,,8
+CH-00474,2026-08-22,2026-08-22 17:05,2026-08-22 18:29,2026-08-23 08:21,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0083,Não,2.0,24.0,1.4,15.27,1,1,8
+CH-00171,2026-08-22,2026-08-22 20:51,2026-08-22 21:21,2026-08-23 00:49,Resgate não creditado,Alta,Portal,Resolvido,Analista B,,Sim,1.0,8.0,0.5,3.97,1,1,8
+CH-00280,2026-08-23,2026-08-23 09:38,2026-08-23 12:43,2026-08-23 11:09,Resgate não creditado,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,3.08,1.52,0,1,8
+CH-00343,2026-08-23,2026-08-23 14:50,2026-08-23 15:21,2026-08-27 03:56,Importação de base,Baixa,WhatsApp,Resolvido,Analista A,,Não,4.0,48.0,0.52,85.1,1,0,8
+CH-00111,2026-08-23,2026-08-23 21:12,2026-08-23 22:30,,Dúvida de regulamento,Baixa,E-mail,Em andamento,Analista C,HZ0166,Não,4.0,48.0,1.3,,1,,8
+CH-00013,2026-08-24,2026-08-24 02:18,2026-08-24 03:01,2026-08-24 02:36,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0019,Não,1.0,8.0,0.72,0.3,1,1,8
+CH-00198,2026-08-24,2026-08-24 04:32,2026-08-24 06:41,2026-08-25 11:53,Resgate não creditado,Baixa,Portal,Resolvido,Analista C,HZ0078,Não,4.0,48.0,2.15,31.35,1,1,8
+CH-00046,2026-08-24,2026-08-24 08:18,2026-08-24 08:23,2026-08-28 05:20,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0051,Não,4.0,48.0,0.08,93.03,1,0,8
+CH-00585,2026-08-24,2026-08-24 15:46,2026-08-24 17:07,2026-08-24 16:14,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0132,Não,1.0,8.0,1.35,0.47,0,1,8
+CH-00628,2026-08-24,2026-08-24 18:11,2026-08-24 18:30,2026-08-25 07:57,Cadastro de participante,Média,E-mail,Resolvido,Analista C,HZ0099,Não,2.0,24.0,0.32,13.77,1,1,8
+CH-00624,2026-08-24,2026-08-24 23:13,2026-08-25 00:18,2026-08-27 09:07,Relatório / dashboard,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,1.08,57.9,1,0,8
+CH-00159,2026-08-25,2026-08-25 03:26,2026-08-25 03:51,2026-08-28 09:13,Pontuação divergente,Média,Portal,Resolvido,Analista A,HZ0105,Não,2.0,24.0,0.42,77.78,1,0,8
+CH-00153,2026-08-25,2026-08-25 18:29,2026-08-25 20:39,2026-08-25 20:44,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0009,Não,1.0,8.0,2.17,2.25,0,1,8
+CH-00294,2026-08-25,2026-08-25 20:03,2026-08-25 21:06,,Relatório / dashboard,Média,Portal,Aguardando cliente,Analista C,HZ0123,Não,2.0,24.0,1.05,,1,,8
+CH-00169,2026-08-25,2026-08-25 21:15,2026-08-25 22:32,2026-08-26 02:19,Resgate não creditado,Alta,E-mail,Resolvido,Analista A,HZ0041,Não,1.0,8.0,1.28,5.07,0,1,8
+CH-00212,2026-08-26,2026-08-26 00:01,2026-08-26 00:25,2026-08-26 07:17,Importação de base,Baixa,Portal,Resolvido,Analista C,HZ0001,Não,4.0,48.0,0.4,7.27,1,1,9
+CH-00340,2026-08-26,2026-08-26 06:06,2026-08-26 07:55,2026-08-27 21:07,Importação de base,Média,Portal,Resolvido,Analista C,HZ0154,Não,2.0,24.0,1.82,39.02,1,0,9
+CH-00346,2026-08-26,2026-08-26 08:35,2026-08-26 11:30,2026-08-26 10:01,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0077,Sim,1.0,8.0,2.92,1.43,0,1,9
+CH-00059,2026-08-26,2026-08-26 08:48,2026-08-26 10:17,2026-08-26 16:28,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0055,Sim,1.0,8.0,1.48,7.67,0,1,9
+CH-00125,2026-08-26,2026-08-26 09:28,2026-08-26 09:45,2026-08-26 11:20,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0008,Não,1.0,8.0,0.28,1.87,1,1,9
+CH-00174,2026-08-26,2026-08-26 12:55,2026-08-26 13:06,2026-08-27 00:29,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0102,Sim,1.0,8.0,0.18,11.57,1,0,9
+CH-00412,2026-08-26,2026-08-26 13:00,2026-08-26 15:27,2026-08-27 06:46,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0145,Não,1.0,8.0,2.45,17.77,0,0,9
+CH-00552,2026-08-26,2026-08-26 14:38,2026-08-26 14:43,2026-08-26 19:57,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0084,Não,1.0,8.0,0.08,5.32,1,1,9
+CH-00550,2026-08-26,2026-08-26 14:46,2026-08-26 15:44,2026-08-27 02:45,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.97,11.98,1,0,9
+CH-00322,2026-08-26,2026-08-26 15:15,2026-08-26 16:10,2026-08-26 15:33,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0094,Não,1.0,8.0,0.92,0.3,1,1,9
+CH-00348,2026-08-26,2026-08-26 15:24,2026-08-26 18:16,2026-08-26 19:10,Pontuação divergente,Alta,E-mail,Resolvido,Analista A,HZ0073,Não,1.0,8.0,2.87,3.77,0,1,9
+CH-00163,2026-08-26,2026-08-26 20:04,2026-08-26 20:09,2026-08-26 21:54,Cadastro de participante,Alta,Portal,Resolvido,Analista A,HZ0065,Não,1.0,8.0,0.08,1.83,1,1,9
+CH-00385,2026-08-26,2026-08-26 20:35,2026-08-26 22:26,2026-08-27 02:39,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Sim,1.0,8.0,1.85,6.07,0,1,9
+CH-00273,2026-08-26,2026-08-26 22:01,2026-08-27 04:55,2026-08-27 19:50,Relatório / dashboard,Média,Portal,Resolvido,Analista A,HZ0099,Não,2.0,24.0,6.9,21.82,0,1,9
+CH-00627,2026-08-27,2026-08-27 00:50,2026-08-27 01:30,2026-08-27 15:12,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0075,Não,2.0,24.0,0.67,14.37,1,1,9
+CH-00067,2026-08-27,2026-08-27 01:25,2026-08-27 03:32,2026-08-27 02:31,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0166,Não,1.0,8.0,2.12,1.1,0,1,9
+CH-00179,2026-08-27,2026-08-27 01:32,2026-08-27 01:37,2026-08-27 06:38,Importação de base,Crítica,E-mail,Resolvido,Analista B,HZ0024,Não,0.5,4.0,0.08,5.1,1,0,9
+CH-00621,2026-08-27,2026-08-27 03:03,2026-08-27 03:08,2026-08-27 15:24,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0130,Não,2.0,24.0,0.08,12.35,1,1,9
+CH-00047,2026-08-27,2026-08-27 03:46,2026-08-27 04:41,2026-08-27 04:28,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0141,Sim,1.0,8.0,0.92,0.7,1,1,9
+CH-00136,2026-08-27,2026-08-27 04:59,2026-08-27 05:08,2026-08-27 05:17,Resgate não creditado,Alta,E-mail,Resolvido,Analista A,,Não,1.0,8.0,0.15,0.3,1,1,9
+CH-00598,2026-08-27,2026-08-27 08:05,2026-08-27 10:36,2026-08-27 09:24,Acesso / login,Crítica,Portal,Resolvido,Analista C,HZ0041,Não,0.5,4.0,2.52,1.32,0,1,9
+CH-00026,2026-08-27,2026-08-27 09:29,2026-08-27 10:25,2026-08-29 02:02,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0150,Não,1.0,8.0,0.93,40.55,1,0,9
+CH-00257,2026-08-27,2026-08-27 09:56,2026-08-27 11:09,2026-08-27 14:13,Pontuação divergente,Crítica,Portal,Resolvido,Analista A,HZ0008,Não,0.5,4.0,1.22,4.28,0,0,9
+CH-00274,2026-08-27,2026-08-27 11:26,2026-08-27 13:01,2026-08-27 21:58,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0018,Não,1.0,8.0,1.58,10.53,0,0,9
+CH-00353,2026-08-27,2026-08-27 12:47,2026-08-27 14:35,2026-08-30 10:25,Pontuação divergente,Média,Portal,Resolvido,Analista B,HZ0102,Não,2.0,24.0,1.8,69.63,1,0,9
+CH-00279,2026-08-27,2026-08-27 13:28,2026-08-27 14:21,2026-08-28 10:13,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista C,HZ0147,Não,1.0,8.0,0.88,20.75,1,0,9
+CH-00393,2026-08-27,2026-08-27 13:29,2026-08-27 14:00,,Pontuação divergente,Crítica,E-mail,Aguardando cliente,Analista C,HZ0009,Não,0.5,4.0,0.52,,0,,9
+CH-00251,2026-08-27,2026-08-27 13:37,2026-08-27 14:53,2026-08-28 16:31,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0018,Não,1.0,8.0,1.27,26.9,0,0,9
+CH-00104,2026-08-27,2026-08-27 15:03,2026-08-27 15:45,2026-08-27 15:54,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.7,0.85,1,1,9
+CH-00590,2026-08-27,2026-08-27 15:55,2026-08-27 16:45,2026-08-27 21:03,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0017,Não,1.0,8.0,0.83,5.13,1,1,9
+CH-00156,2026-08-27,2026-08-27 17:37,2026-08-27 18:24,2026-08-27 19:07,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0037,Não,1.0,8.0,0.78,1.5,1,1,9
+CH-00068,2026-08-27,2026-08-27 17:52,2026-08-27 18:15,2026-08-28 01:12,Acesso / login,Média,E-mail,Resolvido,Analista A,,Não,2.0,24.0,0.38,7.33,1,1,9
+CH-00233,2026-08-27,2026-08-27 20:19,2026-08-27 21:06,2026-08-28 01:52,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0180,Não,4.0,48.0,0.78,5.55,1,1,9
+CH-00295,2026-08-27,2026-08-27 23:04,2026-08-28 01:20,2026-08-28 01:42,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0087,Não,2.0,24.0,2.27,2.63,0,1,9
+CH-00426,2026-08-28,2026-08-28 07:07,2026-08-28 08:07,2026-08-28 09:30,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0089,Não,1.0,8.0,1.0,2.38,1,1,9
+CH-00360,2026-08-28,2026-08-28 08:36,2026-08-28 12:38,2026-08-28 17:44,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0096,Sim,1.0,8.0,4.03,9.13,0,0,9
+CH-00077,2026-08-28,2026-08-28 10:14,2026-08-28 12:12,2026-09-04 10:39,Pontuação divergente,Baixa,Portal,Resolvido,Analista A,HZ0170,Não,4.0,48.0,1.97,168.42,1,0,9
+CH-00639,2026-08-28,2026-08-28 11:02,2026-08-28 13:48,2026-08-28 11:31,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0148,Sim,1.0,8.0,2.77,0.48,0,1,9
+CH-00456,2026-08-28,2026-08-28 11:13,2026-08-28 12:40,2026-08-28 13:10,Acesso / login,Média,WhatsApp,Resolvido,Analista B,,Não,2.0,24.0,1.45,1.95,1,1,9
+CH-00084,2026-08-28,2026-08-28 11:45,2026-08-28 12:04,2026-08-28 18:41,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0003,Não,1.0,8.0,0.32,6.93,1,1,9
+CH-00315,2026-08-28,2026-08-28 12:28,2026-08-28 14:36,2026-08-28 18:41,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0096,Não,1.0,8.0,2.13,6.22,0,1,9
+CH-00615,2026-08-28,2026-08-28 12:48,2026-08-28 12:53,2026-08-29 15:31,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0047,Não,1.0,8.0,0.08,26.72,1,0,9
+CH-00181,2026-08-28,2026-08-28 14:41,2026-08-28 15:47,2026-08-29 21:08,Pontuação divergente,Média,Portal,Resolvido,Analista B,HZ0047,Sim,2.0,24.0,1.1,30.45,1,0,9
+CH-00433,2026-08-28,2026-08-28 14:43,2026-08-28 16:44,2026-08-29 00:54,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0130,Não,1.0,8.0,2.02,10.18,0,0,9
+CH-00049,2026-08-28,2026-08-28 15:10,2026-08-28 15:16,2026-08-29 02:30,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0166,Sim,1.0,8.0,0.1,11.33,1,0,9
+CH-00442,2026-08-29,2026-08-29 01:30,2026-08-29 02:29,2026-08-29 14:14,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0128,Não,1.0,8.0,0.98,12.73,1,0,9
+CH-00561,2026-08-29,2026-08-29 01:52,2026-08-29 02:59,2026-08-30 23:58,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0130,Não,4.0,48.0,1.12,46.1,1,1,9
+CH-00128,2026-08-29,2026-08-29 05:43,2026-08-29 08:08,2026-08-29 11:04,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0126,Não,1.0,8.0,2.42,5.35,0,1,9
+CH-00510,2026-08-29,2026-08-29 06:08,2026-08-29 07:35,2026-08-29 10:27,Dúvida de regulamento,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,1.45,4.32,0,1,9
+CH-00378,2026-08-29,2026-08-29 08:19,2026-08-29 08:52,2026-08-29 16:20,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0041,Não,1.0,8.0,0.55,8.02,1,0,9
+CH-00012,2026-08-29,2026-08-29 11:55,2026-08-29 12:14,2026-08-29 15:33,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0087,Não,1.0,8.0,0.32,3.63,1,1,9
+CH-00435,2026-08-29,2026-08-29 12:17,2026-08-29 14:39,2026-08-30 02:24,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0007,Não,1.0,8.0,2.37,14.12,0,0,9
+CH-00101,2026-08-29,2026-08-29 12:48,2026-08-29 13:33,,Pontuação divergente,Alta,E-mail,Aguardando cliente,Analista B,HZ0059,Não,1.0,8.0,0.75,,1,,9
+CH-00524,2026-08-29,2026-08-29 14:05,2026-08-29 15:37,2026-08-30 07:19,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0179,Não,1.0,8.0,1.53,17.23,0,0,9
+CH-00176,2026-08-29,2026-08-29 14:28,2026-08-29 16:18,2026-08-29 23:56,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0048,Não,1.0,8.0,1.83,9.47,0,0,9
+CH-00401,2026-08-29,2026-08-29 15:17,2026-08-29 16:06,2026-08-30 04:57,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0070,Não,2.0,24.0,0.82,13.67,1,1,9
+CH-00496,2026-08-29,2026-08-29 16:54,2026-08-29 19:13,2026-08-30 11:02,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,2.32,18.13,0,0,9
+CH-00540,2026-08-30,2026-08-30 02:03,2026-08-30 04:11,2026-08-30 22:23,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0170,Não,2.0,24.0,2.13,20.33,0,1,9
+CH-00612,2026-08-30,2026-08-30 08:55,2026-08-30 09:57,2026-08-30 09:52,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0064,Não,1.0,8.0,1.03,0.95,0,1,9
+CH-00131,2026-08-30,2026-08-30 09:00,2026-08-30 09:47,2026-09-02 02:43,Pontuação divergente,Baixa,Portal,Resolvido,Analista B,HZ0158,Sim,4.0,48.0,0.78,65.72,1,0,9
+CH-00501,2026-08-30,2026-08-30 09:37,2026-08-30 09:50,2026-08-30 10:04,Relatório / dashboard,Crítica,Portal,Resolvido,Analista C,HZ0044,Não,0.5,4.0,0.22,0.45,1,1,9
+CH-00566,2026-08-30,2026-08-30 12:49,2026-08-30 13:29,2026-09-02 06:17,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0011,Não,1.0,8.0,0.67,65.47,1,0,9
+CH-00473,2026-08-30,2026-08-30 13:42,2026-08-30 15:56,,Pontuação divergente,Alta,WhatsApp,Em andamento,Analista A,HZ0078,Não,1.0,8.0,2.23,,0,,9
+CH-00124,2026-08-30,2026-08-30 16:02,2026-08-30 16:46,2026-08-30 20:58,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0007,Não,1.0,8.0,0.73,4.93,1,1,9
+CH-00617,2026-08-30,2026-08-30 17:38,2026-08-30 18:16,2026-08-31 07:51,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0081,Não,1.0,8.0,0.63,14.22,1,0,9
+CH-00421,2026-08-30,2026-08-30 17:43,2026-08-30 17:48,2026-08-30 20:58,Pontuação divergente,Alta,Portal,Resolvido,Analista B,,Não,1.0,8.0,0.08,3.25,1,1,9
+CH-00062,2026-08-31,2026-08-31 04:14,2026-08-31 04:20,2026-08-31 09:58,Importação de base,Crítica,WhatsApp,Resolvido,Analista A,,Não,0.5,4.0,0.1,5.73,1,0,9
+CH-00161,2026-08-31,2026-08-31 07:00,2026-08-31 08:25,2026-08-31 20:31,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0127,Não,2.0,24.0,1.42,13.52,1,1,9
+CH-00007,2026-08-31,2026-08-31 07:29,2026-08-31 07:43,2026-08-31 09:47,Relatório / dashboard,Baixa,Portal,Resolvido,Analista A,HZ0004,Não,4.0,48.0,0.23,2.3,1,1,9
+CH-00244,2026-08-31,2026-08-31 08:11,2026-08-31 09:08,2026-08-31 14:16,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0127,Não,1.0,8.0,0.95,6.08,1,1,9
+CH-00226,2026-08-31,2026-08-31 08:24,2026-08-31 09:48,2026-09-01 17:32,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0174,Não,1.0,8.0,1.4,33.13,0,0,9
+CH-00110,2026-08-31,2026-08-31 09:59,2026-08-31 13:03,,Pontuação divergente,Alta,Portal,Aguardando cliente,Analista A,HZ0106,Não,1.0,8.0,3.07,,0,,9
+CH-00008,2026-08-31,2026-08-31 11:35,2026-08-31 12:31,2026-08-31 16:21,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista A,HZ0033,Sim,1.0,8.0,0.93,4.77,1,1,9
+CH-00368,2026-08-31,2026-08-31 14:30,2026-08-31 15:03,,Pontuação divergente,Crítica,Portal,Aguardando cliente,Analista A,,Não,0.5,4.0,0.55,,0,,9
+CH-00500,2026-08-31,2026-08-31 14:44,2026-08-31 15:27,2026-08-31 22:59,Resgate não creditado,Alta,E-mail,Resolvido,Analista A,HZ0036,Não,1.0,8.0,0.72,8.25,1,0,9
+CH-00267,2026-08-31,2026-08-31 14:54,2026-08-31 16:51,2026-08-31 16:34,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0166,Não,1.0,8.0,1.95,1.67,0,1,9
+CH-00572,2026-08-31,2026-08-31 16:38,2026-08-31 16:58,2026-09-01 03:36,Acesso / login,Média,Portal,Resolvido,Analista C,,Não,2.0,24.0,0.33,10.97,1,1,9
+CH-00323,2026-08-31,2026-08-31 17:06,2026-08-31 17:29,2026-08-31 22:29,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0150,Não,1.0,8.0,0.38,5.38,1,1,9
+CH-00485,2026-08-31,2026-08-31 17:10,2026-08-31 18:49,2026-08-31 21:04,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,1.65,3.9,0,1,9
+CH-00173,2026-09-01,2026-09-01 00:58,2026-09-01 01:03,2026-09-01 02:41,Acesso / login,Alta,E-mail,Resolvido,Analista A,HZ0070,Não,1.0,8.0,0.08,1.72,1,1,9
+CH-00490,2026-09-01,2026-09-01 02:22,2026-09-01 03:51,2026-09-01 11:42,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0001,Não,2.0,24.0,1.48,9.33,1,1,9
+CH-00186,2026-09-01,2026-09-01 03:28,2026-09-01 03:33,2026-09-01 12:28,Pontuação divergente,Crítica,Portal,Resolvido,Analista C,HZ0098,Não,0.5,4.0,0.08,9.0,1,0,9
+CH-00286,2026-09-01,2026-09-01 03:34,2026-09-01 04:13,2026-09-01 06:26,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0027,Não,1.0,8.0,0.65,2.87,1,1,9
+CH-00338,2026-09-01,2026-09-01 08:26,2026-09-01 09:42,2026-09-01 11:33,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0028,Não,1.0,8.0,1.27,3.12,0,1,9
+CH-00457,2026-09-01,2026-09-01 10:23,2026-09-01 13:21,2026-09-01 13:27,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0090,Não,1.0,8.0,2.97,3.07,0,1,9
+CH-00422,2026-09-01,2026-09-01 11:44,2026-09-01 12:08,2026-09-01 19:22,Relatório / dashboard,Média,Portal,Resolvido,Analista A,HZ0132,Não,2.0,24.0,0.4,7.63,1,1,9
+CH-00258,2026-09-01,2026-09-01 11:47,2026-09-01 13:49,2026-09-02 02:30,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0013,Não,2.0,24.0,2.03,14.72,0,1,9
+CH-00318,2026-09-01,2026-09-01 12:57,2026-09-01 15:24,2026-09-01 14:00,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,,Sim,1.0,8.0,2.45,1.05,0,1,9
+CH-00073,2026-09-01,2026-09-01 16:27,2026-09-01 20:01,,Pontuação divergente,Alta,E-mail,Em andamento,Analista B,HZ0017,Não,1.0,8.0,3.57,,0,,9
+CH-00324,2026-09-01,2026-09-01 17:07,2026-09-01 17:54,2026-09-01 20:21,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0065,Não,1.0,8.0,0.78,3.23,1,1,9
+CH-00402,2026-09-01,2026-09-01 17:34,2026-09-01 20:53,2026-09-02 01:54,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,3.32,8.33,0,0,9
+CH-00247,2026-09-02,2026-09-02 03:08,2026-09-02 03:13,2026-09-02 07:41,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0162,Não,2.0,24.0,0.08,4.55,1,1,10
+CH-00154,2026-09-02,2026-09-02 04:58,2026-09-02 05:07,2026-09-02 21:39,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0001,Não,1.0,8.0,0.15,16.68,1,0,10
+CH-00228,2026-09-02,2026-09-02 05:56,2026-09-02 06:09,2026-09-02 07:46,Relatório / dashboard,Média,Portal,Resolvido,Analista B,,Não,2.0,24.0,0.22,1.83,1,1,10
+CH-00631,2026-09-02,2026-09-02 12:12,2026-09-02 14:15,2026-09-02 14:22,Importação de base,Crítica,Portal,Resolvido,Analista B,,Não,0.5,4.0,2.05,2.17,0,1,10
+CH-00199,2026-09-02,2026-09-02 13:12,2026-09-02 15:09,2026-09-03 06:23,Relatório / dashboard,Média,E-mail,Resolvido,Analista C,,Não,2.0,24.0,1.95,17.18,1,1,10
+CH-00225,2026-09-03,2026-09-03 00:18,2026-09-03 00:36,2026-09-03 01:23,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0106,Não,2.0,24.0,0.3,1.08,1,1,10
+CH-00394,2026-09-03,2026-09-03 23:36,2026-09-04 00:02,2026-09-04 09:01,Importação de base,Média,E-mail,Resolvido,Analista A,,Não,2.0,24.0,0.43,9.42,1,1,10
+CH-00330,2026-09-04,2026-09-04 07:32,2026-09-04 08:10,2026-09-04 10:55,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,,Não,4.0,48.0,0.63,3.38,1,1,10
+CH-00172,2026-09-04,2026-09-04 14:24,2026-09-04 14:36,2026-09-04 14:47,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0057,Não,1.0,8.0,0.2,0.38,1,1,10
+CH-00453,2026-09-04,2026-09-04 15:05,2026-09-04 15:23,2026-09-06 03:33,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista B,,Não,4.0,48.0,0.3,36.47,1,1,10
+CH-00554,2026-09-04,2026-09-04 21:49,2026-09-05 03:54,2026-09-08 01:51,Importação de base,Baixa,E-mail,Resolvido,Analista B,HZ0063,Não,4.0,48.0,6.08,76.03,0,0,10
+CH-00575,2026-09-04,2026-09-04 23:52,2026-09-05 00:34,2026-09-05 14:35,Pontuação divergente,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,0.7,14.72,1,0,10
+CH-00593,2026-09-05,2026-09-05 07:20,2026-09-05 10:20,2026-09-05 12:38,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0111,Não,4.0,48.0,3.0,5.3,1,1,10
+CH-00450,2026-09-05,2026-09-05 10:20,2026-09-05 14:06,2026-09-06 08:58,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0046,Não,2.0,24.0,3.77,22.63,0,1,10
+CH-00429,2026-09-05,2026-09-05 12:04,2026-09-05 12:57,2026-09-05 22:20,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0058,Não,1.0,8.0,0.88,10.27,1,0,10
+CH-00109,2026-09-05,2026-09-05 18:39,2026-09-05 18:56,2026-09-05 21:24,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0027,Não,2.0,24.0,0.28,2.75,1,1,10
+CH-00194,2026-09-06,2026-09-06 16:49,2026-09-06 17:36,2026-09-06 19:19,Resgate não creditado,Alta,Portal,Resolvido,Analista B,,Não,1.0,8.0,0.78,2.5,1,1,10
+CH-00542,2026-09-06,2026-09-06 20:41,2026-09-06 23:23,2026-09-07 01:35,Cadastro de participante,Média,E-mail,Resolvido,Analista B,,Não,2.0,24.0,2.7,4.9,0,1,10
+CH-00252,2026-09-07,2026-09-07 04:24,2026-09-07 04:39,2026-09-07 08:10,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0092,Não,2.0,24.0,0.25,3.77,1,1,10
+CH-00325,2026-09-07,2026-09-07 12:14,2026-09-07 12:21,,Resgate não creditado,Alta,WhatsApp,Em andamento,Analista B,HZ0050,Não,1.0,8.0,0.12,,1,,10
+CH-00438,2026-09-07,2026-09-07 13:59,2026-09-07 15:38,2026-09-07 14:20,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista B,HZ0002,Não,2.0,24.0,1.65,0.35,1,1,10
+CH-00035,2026-09-07,2026-09-07 15:54,2026-09-07 16:16,2026-09-07 18:46,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0032,Não,1.0,8.0,0.37,2.87,1,1,10
+CH-00248,2026-09-07,2026-09-07 21:57,2026-09-07 22:57,2026-09-07 22:50,Resgate não creditado,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,1.0,0.88,1,1,10
+CH-00495,2026-09-08,2026-09-08 05:39,2026-09-08 06:14,2026-09-08 07:09,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista B,HZ0050,Não,1.0,8.0,0.58,1.5,1,1,10
+CH-00213,2026-09-08,2026-09-08 05:58,2026-09-08 09:04,2026-09-08 08:47,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0110,Não,1.0,8.0,3.1,2.82,0,1,10
+CH-00623,2026-09-08,2026-09-08 13:19,2026-09-08 13:40,2026-09-08 17:43,Pontuação divergente,Baixa,Portal,Resolvido,Analista C,HZ0063,Sim,4.0,48.0,0.35,4.4,1,1,10
+CH-00272,2026-09-08,2026-09-08 14:52,2026-09-08 15:09,2026-09-08 18:29,Cadastro de participante,Alta,Portal,Resolvido,Analista B,HZ0095,Não,1.0,8.0,0.28,3.62,1,1,10
+CH-00072,2026-09-08,2026-09-08 16:44,2026-09-08 18:59,2026-09-08 22:14,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista C,HZ0041,Não,2.0,24.0,2.25,5.5,0,1,10
+CH-00466,2026-09-08,2026-09-08 19:10,2026-09-08 19:32,,Relatório / dashboard,Média,E-mail,Em andamento,Analista C,HZ0008,Não,2.0,24.0,0.37,,1,,10
+CH-00282,2026-09-08,2026-09-08 19:41,2026-09-08 20:00,2026-09-09 04:54,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0084,Não,2.0,24.0,0.32,9.22,1,1,10
+CH-00165,2026-09-09,2026-09-09 00:28,2026-09-09 02:08,,Dúvida de regulamento,Alta,WhatsApp,Em andamento,Analista C,HZ0105,Não,1.0,8.0,1.67,,0,,11
+CH-00202,2026-09-09,2026-09-09 03:01,2026-09-09 05:47,2026-09-09 07:43,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0021,Não,2.0,24.0,2.77,4.7,0,1,11
+CH-00382,2026-09-09,2026-09-09 12:26,2026-09-09 12:40,,Relatório / dashboard,Média,WhatsApp,Aguardando cliente,Analista C,HZ0162,Não,2.0,24.0,0.23,,1,,11
+CH-00418,2026-09-09,2026-09-09 15:12,2026-09-09 18:09,2026-09-09 15:37,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0020,Não,2.0,24.0,2.95,0.42,0,1,11
+CH-00152,2026-09-09,2026-09-09 18:46,2026-09-09 19:11,2026-09-09 20:42,Cadastro de participante,Crítica,Portal,Resolvido,Analista C,HZ0156,Não,0.5,4.0,0.42,1.93,1,1,11
+CH-00112,2026-09-09,2026-09-09 23:02,2026-09-10 01:21,,Cadastro de participante,Crítica,Portal,Aguardando cliente,Analista C,HZ0034,Não,0.5,4.0,2.32,,0,,11
+CH-00160,2026-09-10,2026-09-10 03:00,2026-09-10 03:06,2026-09-10 03:18,Pontuação divergente,Alta,E-mail,Resolvido,Analista B,HZ0149,Não,1.0,8.0,0.1,0.3,1,1,11
+CH-00284,2026-09-10,2026-09-10 03:26,2026-09-10 04:12,2026-09-10 11:13,Importação de base,Crítica,Portal,Resolvido,Analista B,HZ0016,Não,0.5,4.0,0.77,7.78,0,0,11
+CH-00347,2026-09-10,2026-09-10 10:25,2026-09-10 13:53,2026-09-10 17:49,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0118,Não,1.0,8.0,3.47,7.4,0,1,11
+CH-00363,2026-09-10,2026-09-10 14:08,2026-09-10 16:55,2026-09-10 15:08,Importação de base,Crítica,Portal,Resolvido,Analista C,HZ0166,Não,0.5,4.0,2.78,1.0,0,1,11
+CH-00147,2026-09-10,2026-09-10 16:46,2026-09-10 18:21,2026-09-10 20:36,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,,Não,4.0,48.0,1.58,3.83,1,1,11
+CH-00256,2026-09-10,2026-09-10 21:17,2026-09-10 22:20,2026-09-12 08:14,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista A,HZ0049,Não,4.0,48.0,1.05,34.95,1,1,11
+CH-00140,2026-09-11,2026-09-11 21:06,2026-09-11 21:49,2026-09-11 21:46,Acesso / login,Média,E-mail,Resolvido,Analista C,HZ0086,Não,2.0,24.0,0.72,0.67,1,1,11
+CH-00342,2026-09-11,2026-09-11 21:29,2026-09-11 21:49,2026-09-12 14:51,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0119,Sim,1.0,8.0,0.33,17.37,1,0,11
+CH-00201,2026-09-12,2026-09-12 15:26,2026-09-12 18:03,,Importação de base,Baixa,WhatsApp,Aguardando cliente,Analista C,HZ0148,Não,4.0,48.0,2.62,,1,,11
+CH-00610,2026-09-12,2026-09-12 16:29,2026-09-12 16:41,2026-09-12 17:40,Cadastro de participante,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,0.2,1.18,1,1,11
+CH-00518,2026-09-12,2026-09-12 18:18,2026-09-12 18:57,2026-09-12 23:21,Pontuação divergente,Alta,WhatsApp,Resolvido,Analista B,HZ0026,Não,1.0,8.0,0.65,5.05,1,1,11
+CH-00603,2026-09-12,2026-09-12 18:47,2026-09-12 20:08,2026-09-13 11:47,Dúvida de regulamento,Média,Portal,Resolvido,Analista A,HZ0125,Não,2.0,24.0,1.35,17.0,1,1,11
+CH-00281,2026-09-12,2026-09-12 22:46,2026-09-12 23:24,2026-09-13 02:52,Cadastro de participante,Média,WhatsApp,Resolvido,Analista B,HZ0093,Não,2.0,24.0,0.63,4.1,1,1,11
+CH-00300,2026-09-12,2026-09-12 23:39,2026-09-13 00:11,2026-09-13 08:44,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0150,Não,2.0,24.0,0.53,9.08,1,1,11
+CH-00430,2026-09-13,2026-09-13 07:54,2026-09-13 08:14,2026-09-14 08:32,Relatório / dashboard,Média,Portal,Resolvido,Analista B,HZ0125,Não,2.0,24.0,0.33,24.63,1,0,11
+CH-00366,2026-09-13,2026-09-13 16:24,2026-09-13 19:54,2026-09-14 07:03,Pontuação divergente,Média,Portal,Resolvido,Analista A,HZ0045,Não,2.0,24.0,3.5,14.65,0,1,11
+CH-00594,2026-09-13,2026-09-13 18:56,2026-09-13 19:01,2026-09-15 06:38,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0023,Não,1.0,8.0,0.08,35.7,1,0,11
+CH-00545,2026-09-14,2026-09-14 14:40,2026-09-14 15:21,2026-09-14 15:43,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0091,Não,2.0,24.0,0.68,1.05,1,1,11
+CH-00060,2026-09-14,2026-09-14 14:54,2026-09-14 17:04,2026-09-14 16:39,Resgate não creditado,Alta,WhatsApp,Resolvido,Analista A,,Não,1.0,8.0,2.17,1.75,0,1,11
+CH-00036,2026-09-14,2026-09-14 15:18,2026-09-14 17:05,2026-09-14 18:39,Resgate não creditado,Alta,E-mail,Resolvido,Analista C,HZ0159,Não,1.0,8.0,1.78,3.35,0,1,11
+CH-00583,2026-09-14,2026-09-14 19:09,2026-09-14 19:27,2026-09-15 12:45,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0055,Não,4.0,48.0,0.3,17.6,1,1,11
+CH-00292,2026-09-15,2026-09-15 02:53,2026-09-15 06:11,2026-09-15 04:28,Acesso / login,Crítica,WhatsApp,Resolvido,Analista A,,Não,0.5,4.0,3.3,1.58,0,1,11
+CH-00061,2026-09-15,2026-09-15 03:55,2026-09-15 05:56,,Acesso / login,Média,Portal,Em andamento,Analista B,,Não,2.0,24.0,2.02,,0,,11
+CH-00546,2026-09-15,2026-09-15 04:28,2026-09-15 07:07,2026-09-15 04:51,Dúvida de regulamento,Crítica,E-mail,Resolvido,Analista A,HZ0150,Não,0.5,4.0,2.65,0.38,0,1,11
+CH-00607,2026-09-15,2026-09-15 05:43,2026-09-15 08:09,2026-09-15 19:03,Pontuação divergente,Crítica,Portal,Resolvido,Analista A,HZ0014,Não,0.5,4.0,2.43,13.33,0,0,11
+CH-00269,2026-09-15,2026-09-15 08:32,2026-09-15 09:13,2026-09-15 11:34,Resgate não creditado,Alta,E-mail,Resolvido,Analista C,HZ0050,Não,1.0,8.0,0.68,3.03,1,1,11
+CH-00031,2026-09-15,2026-09-15 13:13,2026-09-15 14:54,2026-09-15 16:15,Importação de base,Crítica,Portal,Resolvido,Analista A,HZ0061,Não,0.5,4.0,1.68,3.03,0,1,11
+CH-00481,2026-09-15,2026-09-15 13:45,2026-09-15 13:50,2026-09-16 14:18,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0024,Não,2.0,24.0,0.08,24.55,1,0,11
+CH-00553,2026-09-15,2026-09-15 16:12,2026-09-15 17:58,2026-09-16 19:56,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0002,Não,1.0,8.0,1.77,27.73,0,0,11
+CH-00423,2026-09-16,2026-09-16 00:55,2026-09-16 02:43,2026-09-16 10:49,Acesso / login,Baixa,Portal,Resolvido,Analista A,HZ0130,Não,4.0,48.0,1.8,9.9,1,1,12
+CH-00208,2026-09-16,2026-09-16 03:42,2026-09-16 04:53,2026-09-16 16:53,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0140,Não,1.0,8.0,1.18,13.18,0,0,12
+CH-00462,2026-09-16,2026-09-16 07:05,2026-09-16 07:10,2026-09-16 07:34,Dúvida de regulamento,Baixa,E-mail,Resolvido,Analista C,HZ0169,Não,4.0,48.0,0.08,0.48,1,1,12
+CH-00288,2026-09-16,2026-09-16 08:03,2026-09-16 08:43,2026-09-16 18:48,Importação de base,Crítica,Portal,Resolvido,Analista A,HZ0014,Não,0.5,4.0,0.67,10.75,0,0,12
+CH-00636,2026-09-16,2026-09-16 13:26,2026-09-16 14:03,2026-09-16 13:56,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0039,Não,1.0,8.0,0.62,0.5,1,1,12
+CH-00180,2026-09-16,2026-09-16 18:33,2026-09-16 23:24,2026-09-16 19:14,Resgate não creditado,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,4.85,0.68,0,1,12
+CH-00574,2026-09-16,2026-09-16 19:21,2026-09-16 22:09,2026-09-16 19:44,Relatório / dashboard,Média,WhatsApp,Resolvido,Analista C,,Não,2.0,24.0,2.8,0.38,0,1,12
+CH-00320,2026-09-16,2026-09-16 21:01,2026-09-16 22:01,2026-09-16 23:15,Acesso / login,Baixa,Portal,Resolvido,Analista C,,Sim,4.0,48.0,1.0,2.23,1,1,12
+CH-00113,2026-09-17,2026-09-17 01:03,2026-09-17 01:50,2026-09-17 08:55,Acesso / login,Alta,Portal,Resolvido,Analista B,HZ0096,Não,1.0,8.0,0.78,7.87,1,1,12
+CH-00058,2026-09-17,2026-09-17 04:23,2026-09-17 05:03,2026-09-17 06:30,Pontuação divergente,Alta,E-mail,Resolvido,Analista C,,Não,1.0,8.0,0.67,2.12,1,1,12
+CH-00070,2026-09-17,2026-09-17 13:52,2026-09-17 14:03,2026-09-18 03:22,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0153,Não,1.0,8.0,0.18,13.5,1,0,12
+CH-00571,2026-09-18,2026-09-18 01:43,2026-09-18 02:04,2026-09-18 20:45,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,HZ0043,Não,4.0,48.0,0.35,19.03,1,1,12
+CH-00392,2026-09-18,2026-09-18 01:50,2026-09-18 03:14,2026-09-18 08:08,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0145,Não,2.0,24.0,1.4,6.3,1,1,12
+CH-00205,2026-09-18,2026-09-18 05:07,2026-09-18 06:14,2026-09-18 07:33,Resgate não creditado,Alta,E-mail,Resolvido,Analista B,HZ0130,Não,1.0,8.0,1.12,2.43,0,1,12
+CH-00164,2026-09-18,2026-09-18 11:29,2026-09-18 12:07,2026-09-18 19:41,Relatório / dashboard,Média,Portal,Resolvido,Analista B,HZ0157,Não,2.0,24.0,0.63,8.2,1,1,12
+CH-00622,2026-09-18,2026-09-18 13:46,2026-09-18 13:51,2026-09-18 14:43,Importação de base,Crítica,WhatsApp,Resolvido,Analista C,HZ0128,Não,0.5,4.0,0.08,0.95,1,1,12
+CH-00517,2026-09-18,2026-09-18 20:56,2026-09-18 21:55,2026-09-22 01:26,Acesso / login,Baixa,E-mail,Resolvido,Analista C,HZ0180,Não,4.0,48.0,0.98,76.5,1,0,12
+CH-00086,2026-09-18,2026-09-18 21:02,2026-09-18 23:15,2026-09-19 07:38,Resgate não creditado,Alta,Portal,Resolvido,Analista B,HZ0074,Não,1.0,8.0,2.22,10.6,0,0,12
+CH-00556,2026-09-19,2026-09-19 00:08,2026-09-19 00:23,2026-09-19 00:26,Importação de base,Crítica,Portal,Resolvido,Analista C,HZ0034,Não,0.5,4.0,0.25,0.3,1,1,12
+CH-00520,2026-09-19,2026-09-19 05:27,2026-09-19 05:50,2026-09-19 22:42,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista C,HZ0078,Não,4.0,48.0,0.38,17.25,1,1,12
+CH-00336,2026-09-19,2026-09-19 11:51,2026-09-19 14:09,2026-09-19 22:03,Dúvida de regulamento,Baixa,WhatsApp,Resolvido,Analista C,HZ0069,Não,4.0,48.0,2.3,10.2,1,1,12
+CH-00443,2026-09-19,2026-09-19 15:22,2026-09-19 17:35,2026-09-19 16:55,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0121,Sim,1.0,8.0,2.22,1.55,0,1,12
+CH-00063,2026-09-19,2026-09-19 15:46,2026-09-19 15:55,2026-09-19 22:35,Acesso / login,Baixa,Portal,Resolvido,Analista B,HZ0060,Não,4.0,48.0,0.15,6.82,1,1,12
+CH-00534,2026-09-19,2026-09-19 23:39,2026-09-20 00:08,2026-09-20 13:32,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0158,Não,1.0,8.0,0.48,13.88,1,0,12
+CH-00149,2026-09-20,2026-09-20 02:15,2026-09-20 02:31,2026-09-20 03:15,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0176,Não,2.0,24.0,0.27,1.0,1,1,12
+CH-00090,2026-09-20,2026-09-20 03:27,2026-09-20 03:43,2026-09-21 06:29,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0033,Não,2.0,24.0,0.27,27.03,1,0,12
+CH-00121,2026-09-20,2026-09-20 04:54,2026-09-20 05:20,2026-09-20 15:43,Cadastro de participante,Média,Portal,Resolvido,Analista C,HZ0117,Sim,2.0,24.0,0.43,10.82,1,1,12
+CH-00441,2026-09-20,2026-09-20 08:12,2026-09-20 09:19,2026-09-21 13:51,Cadastro de participante,Média,Portal,Resolvido,Analista A,HZ0084,Não,2.0,24.0,1.12,29.65,1,0,12
+CH-00328,2026-09-20,2026-09-20 08:46,2026-09-20 09:39,2026-09-20 20:20,Pontuação divergente,Alta,Portal,Resolvido,Analista A,HZ0076,Não,1.0,8.0,0.88,11.57,1,0,12
+CH-00557,2026-09-20,2026-09-20 09:09,2026-09-20 09:22,2026-09-20 18:32,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0013,Não,4.0,48.0,0.22,9.38,1,1,12
+CH-00589,2026-09-20,2026-09-20 13:35,2026-09-20 14:24,2026-09-20 14:19,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0031,Não,1.0,8.0,0.82,0.73,1,1,12
+CH-00486,2026-09-20,2026-09-20 17:38,2026-09-20 17:59,2026-09-21 08:42,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0177,Não,2.0,24.0,0.35,15.07,1,1,12
+CH-00372,2026-09-20,2026-09-20 22:54,2026-09-20 23:28,2026-09-21 09:11,Acesso / login,Média,WhatsApp,Resolvido,Analista B,HZ0062,Não,2.0,24.0,0.57,10.28,1,1,12
+CH-00547,2026-09-20,2026-09-20 23:53,2026-09-21 01:14,2026-09-22 00:09,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,HZ0048,Não,4.0,48.0,1.35,24.27,1,1,12
+CH-00141,2026-09-21,2026-09-21 01:28,2026-09-21 01:44,,Acesso / login,Média,Portal,Em andamento,Analista B,HZ0059,Não,2.0,24.0,0.27,,1,,12
+CH-00245,2026-09-21,2026-09-21 05:50,2026-09-21 06:43,2026-09-21 06:51,Resgate não creditado,Crítica,WhatsApp,Resolvido,Analista B,HZ0029,Sim,0.5,4.0,0.88,1.02,0,1,12
+CH-00097,2026-09-21,2026-09-21 06:29,2026-09-21 07:27,2026-09-21 08:34,Cadastro de participante,Média,Portal,Resolvido,Analista B,HZ0035,Não,2.0,24.0,0.97,2.08,1,1,12
+CH-00021,2026-09-21,2026-09-21 07:49,2026-09-21 07:54,2026-09-21 08:41,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0065,Não,2.0,24.0,0.08,0.87,1,1,12
+CH-00619,2026-09-21,2026-09-21 10:31,2026-09-21 10:57,2026-09-21 17:31,Importação de base,Alta,Portal,Resolvido,Analista A,,Não,1.0,8.0,0.43,7.0,1,1,12
+CH-00231,2026-09-21,2026-09-21 14:18,2026-09-21 14:23,2026-09-21 23:28,Acesso / login,Média,E-mail,Resolvido,Analista B,HZ0133,Não,2.0,24.0,0.08,9.17,1,1,12
+CH-00395,2026-09-21,2026-09-21 15:35,2026-09-21 17:43,,Dúvida de regulamento,Baixa,Portal,Em andamento,Analista A,HZ0169,Não,4.0,48.0,2.13,,1,,12
+CH-00130,2026-09-21,2026-09-21 18:18,2026-09-21 20:15,,Pontuação divergente,Alta,Portal,Aguardando cliente,Analista C,HZ0030,Não,1.0,8.0,1.95,,0,,12
+CH-00400,2026-09-22,2026-09-22 03:53,2026-09-22 05:12,2026-09-22 05:34,Importação de base,Crítica,WhatsApp,Resolvido,Analista A,HZ0018,Não,0.5,4.0,1.32,1.68,0,1,12
+CH-00629,2026-09-22,2026-09-22 04:26,2026-09-22 04:33,2026-09-22 08:13,Dúvida de regulamento,Crítica,Portal,Resolvido,Analista C,HZ0142,Não,0.5,4.0,0.12,3.78,1,1,12
+CH-00332,2026-09-22,2026-09-22 11:51,2026-09-22 12:10,2026-09-22 18:32,Acesso / login,Alta,Portal,Resolvido,Analista C,HZ0133,Não,1.0,8.0,0.32,6.68,1,1,12
+CH-00544,2026-09-22,2026-09-22 12:52,2026-09-22 13:57,2026-09-22 14:59,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0127,Não,1.0,8.0,1.08,2.12,0,1,12
+CH-00271,2026-09-22,2026-09-22 17:53,2026-09-22 18:29,,Acesso / login,Média,Portal,Aguardando cliente,Analista B,HZ0148,Sim,2.0,24.0,0.6,,1,,12
+CH-00533,2026-09-22,2026-09-22 19:00,2026-09-22 20:09,2026-09-23 03:07,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0024,Não,1.0,8.0,1.15,8.12,0,0,12
+CH-00528,2026-09-22,2026-09-22 21:36,2026-09-22 22:00,,Resgate não creditado,Alta,Portal,Aguardando cliente,Analista C,HZ0072,Não,1.0,8.0,0.4,,1,,12
+CH-00261,2026-09-23,2026-09-23 01:41,2026-09-23 01:46,2026-09-23 05:05,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0058,Não,2.0,24.0,0.08,3.4,1,1,13
+CH-00240,2026-09-23,2026-09-23 12:47,2026-09-23 13:19,,Relatório / dashboard,Média,Portal,Em andamento,Analista A,HZ0135,Não,2.0,24.0,0.53,,1,,13
+CH-00515,2026-09-23,2026-09-23 18:53,2026-09-23 22:27,2026-09-23 23:10,Dúvida de regulamento,Alta,Portal,Resolvido,Analista A,HZ0090,Não,1.0,8.0,3.57,4.28,0,1,13
+CH-00592,2026-09-23,2026-09-23 21:41,2026-09-23 22:52,2026-09-24 03:59,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0141,Não,2.0,24.0,1.18,6.3,1,1,13
+CH-00307,2026-09-24,2026-09-24 02:15,2026-09-24 03:56,2026-09-24 05:10,Relatório / dashboard,Média,Portal,Resolvido,Analista C,HZ0057,Não,2.0,24.0,1.68,2.92,1,1,13
+CH-00108,2026-09-24,2026-09-24 02:41,2026-09-24 06:07,2026-09-24 04:37,Pontuação divergente,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,3.43,1.93,0,1,13
+CH-00132,2026-09-24,2026-09-24 08:29,2026-09-24 09:23,,Cadastro de participante,Média,Portal,Aguardando cliente,Analista A,HZ0118,Não,2.0,24.0,0.9,,1,,13
+CH-00355,2026-09-24,2026-09-24 10:52,2026-09-24 11:28,2026-09-24 16:46,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0097,Não,2.0,24.0,0.6,5.9,1,1,13
+CH-00122,2026-09-24,2026-09-24 14:47,2026-09-24 16:24,2026-09-24 18:37,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista C,HZ0037,Não,4.0,48.0,1.62,3.83,1,1,13
+CH-00200,2026-09-24,2026-09-24 16:18,2026-09-24 17:10,2026-09-24 18:11,Resgate não creditado,Alta,Portal,Resolvido,Analista A,HZ0033,Não,1.0,8.0,0.87,1.88,1,1,13
+CH-00482,2026-09-24,2026-09-24 21:02,2026-09-24 21:20,2026-09-24 22:39,Resgate não creditado,Alta,Portal,Resolvido,Analista C,HZ0145,Não,1.0,8.0,0.3,1.62,1,1,13
+CH-00224,2026-09-24,2026-09-24 21:57,2026-09-24 23:01,2026-09-24 22:18,Importação de base,Crítica,Portal,Resolvido,Analista B,HZ0009,Não,0.5,4.0,1.07,0.35,0,1,13
+CH-00472,2026-09-25,2026-09-25 00:03,2026-09-25 00:49,2026-09-25 12:08,Importação de base,Média,WhatsApp,Resolvido,Analista A,,Não,2.0,24.0,0.77,12.08,1,1,13
+CH-00381,2026-09-25,2026-09-25 00:42,2026-09-25 02:31,2026-09-25 22:38,Relatório / dashboard,Média,Portal,Resolvido,Analista A,HZ0167,Não,2.0,24.0,1.82,21.93,1,1,13
+CH-00386,2026-09-25,2026-09-25 05:14,2026-09-25 05:44,2026-09-26 07:16,Acesso / login,Média,Portal,Resolvido,Analista B,HZ0044,Não,2.0,24.0,0.5,26.03,1,0,13
+CH-00238,2026-09-25,2026-09-25 05:39,2026-09-25 06:31,2026-09-26 17:21,Acesso / login,Média,E-mail,Resolvido,Analista C,HZ0037,Não,2.0,24.0,0.87,35.7,1,0,13
+CH-00404,2026-09-25,2026-09-25 09:26,2026-09-25 09:31,2026-09-25 09:51,Cadastro de participante,Crítica,E-mail,Resolvido,Analista B,,Não,0.5,4.0,0.08,0.42,1,1,13
+CH-00079,2026-09-25,2026-09-25 10:20,2026-09-25 10:41,2026-09-27 00:36,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0166,Não,1.0,8.0,0.35,38.27,1,0,13
+CH-00444,2026-09-25,2026-09-25 17:24,2026-09-25 17:29,2026-09-25 18:20,Acesso / login,Média,WhatsApp,Resolvido,Analista C,HZ0081,Não,2.0,24.0,0.08,0.93,1,1,13
+CH-00167,2026-09-26,2026-09-26 01:18,2026-09-26 01:36,2026-09-26 05:39,Cadastro de participante,Alta,Portal,Resolvido,Analista B,HZ0060,Não,1.0,8.0,0.3,4.35,1,1,13
+CH-00597,2026-09-26,2026-09-26 01:54,2026-09-26 02:43,2026-09-27 00:44,Cadastro de participante,Média,WhatsApp,Resolvido,Analista C,HZ0042,Não,2.0,24.0,0.82,22.83,1,1,13
+CH-00388,2026-09-26,2026-09-26 05:47,2026-09-26 07:24,2026-09-26 10:00,Importação de base,Crítica,Portal,Resolvido,Analista B,,Não,0.5,4.0,1.62,4.22,0,0,13
+CH-00563,2026-09-26,2026-09-26 06:46,2026-09-26 08:04,2026-09-26 11:45,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0068,Não,1.0,8.0,1.3,4.98,0,1,13
+CH-00010,2026-09-26,2026-09-26 15:32,2026-09-26 17:57,2026-09-26 23:28,Importação de base,Crítica,E-mail,Resolvido,Analista C,HZ0080,Não,0.5,4.0,2.42,7.93,0,0,13
+CH-00408,2026-09-26,2026-09-26 18:11,2026-09-26 20:55,2026-09-27 02:57,Resgate não creditado,Alta,Portal,Resolvido,Analista B,,Sim,1.0,8.0,2.73,8.77,0,0,13
+CH-00461,2026-09-27,2026-09-27 02:11,2026-09-27 02:27,2026-09-27 03:12,Importação de base,Crítica,Portal,Resolvido,Analista C,,Não,0.5,4.0,0.27,1.02,1,1,13
+CH-00190,2026-09-27,2026-09-27 02:53,2026-09-27 06:29,2026-09-27 09:00,Relatório / dashboard,Crítica,WhatsApp,Resolvido,Analista C,HZ0179,Não,0.5,4.0,3.6,6.12,0,0,13
+CH-00177,2026-09-27,2026-09-27 04:52,2026-09-27 06:38,2026-09-27 05:12,Dúvida de regulamento,Alta,Portal,Resolvido,Analista C,HZ0028,Não,1.0,8.0,1.77,0.33,0,1,13
+CH-00317,2026-09-27,2026-09-27 09:21,2026-09-27 09:33,2026-10-01 19:23,Pontuação divergente,Média,Portal,Resolvido,Analista C,HZ0085,Não,2.0,24.0,0.2,106.03,1,0,13
+CH-00521,2026-09-27,2026-09-27 09:28,2026-09-27 09:37,2026-09-27 16:20,Acesso / login,Média,Portal,Resolvido,Analista B,,Não,2.0,24.0,0.15,6.87,1,1,13
+CH-00491,2026-09-27,2026-09-27 20:38,2026-09-27 21:29,2026-09-28 07:33,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista A,HZ0104,Não,4.0,48.0,0.85,10.92,1,1,13
+CH-00493,2026-09-27,2026-09-27 23:17,2026-09-28 02:29,2026-09-28 11:31,Importação de base,Crítica,Portal,Resolvido,Analista B,HZ0148,Não,0.5,4.0,3.2,12.23,0,0,13
+CH-00002,2026-09-28,2026-09-28 07:32,2026-09-28 07:42,2026-09-29 01:15,Acesso / login,Média,Portal,Resolvido,Analista A,HZ0054,Não,2.0,24.0,0.17,17.72,1,1,13
+CH-00376,2026-09-28,2026-09-28 10:09,2026-09-28 10:23,2026-09-28 13:37,Pontuação divergente,Alta,Portal,Resolvido,Analista C,HZ0159,Não,1.0,8.0,0.23,3.47,1,1,13
+CH-00630,2026-09-28,2026-09-28 10:50,2026-09-28 11:52,2026-10-02 03:55,Dúvida de regulamento,Média,Portal,Resolvido,Analista A,HZ0176,Não,2.0,24.0,1.03,89.08,1,0,13
+CH-00044,2026-09-29,2026-09-29 07:43,2026-09-29 09:09,2026-09-29 09:37,Acesso / login,Alta,Portal,Resolvido,Analista A,HZ0151,Não,1.0,8.0,1.43,1.9,0,1,13
+CH-00465,2026-09-29,2026-09-29 10:24,2026-09-29 10:37,2026-09-29 14:53,Acesso / login,Média,WhatsApp,Resolvido,Analista A,,Não,2.0,24.0,0.22,4.48,1,1,13
+CH-00569,2026-09-29,2026-09-29 13:08,2026-09-29 14:00,2026-09-29 20:17,Dúvida de regulamento,Baixa,Portal,Resolvido,Analista B,,Não,4.0,48.0,0.87,7.15,1,1,13
+CH-00022,2026-09-30,2026-09-30 00:15,2026-09-30 01:32,2026-10-01 11:17,Importação de base,Baixa,Portal,Resolvido,Analista C,HZ0059,Não,4.0,48.0,1.28,35.03,1,1,14
+CH-00633,2026-09-30,2026-09-30 13:54,2026-09-30 15:40,2026-09-30 17:55,Resgate não creditado,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,1.77,4.02,0,1,14
+CH-00151,2026-09-30,2026-09-30 13:55,2026-09-30 14:16,2026-09-30 17:10,Resgate não creditado,Alta,Portal,Resolvido,Analista C,,Não,1.0,8.0,0.35,3.25,1,1,14
+CH-00417,2026-09-30,2026-09-30 18:13,2026-09-30 19:16,2026-10-01 11:18,Acesso / login,Média,E-mail,Resolvido,Analista A,HZ0122,Não,2.0,24.0,1.05,17.08,1,1,14
+CH-00116,2026-09-30,2026-09-30 19:35,2026-09-30 20:28,2026-09-30 21:43,Importação de base,Crítica,E-mail,Resolvido,Analista B,HZ0018,Não,0.5,4.0,0.88,2.13,0,1,14
+CH-00578,2026-09-30,2026-09-30 20:45,2026-09-30 22:30,2026-10-02 05:35,Pontuação divergente,Alta,Portal,Resolvido,Analista B,HZ0180,Não,1.0,8.0,1.75,32.83,0,0,14
+CH-00239,2026-10-01,2026-10-01 03:26,2026-10-01 05:00,2026-10-01 03:44,Acesso / login,Média,Portal,Resolvido,Analista C,HZ0041,Não,2.0,24.0,1.57,0.3,1,1,14

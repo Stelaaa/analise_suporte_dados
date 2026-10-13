@@ -29,13 +29,13 @@ Todos os dados são **fictícios** e gerados por script (seed fixa) — inclusiv
 
 | Competência | Onde está a evidência |
 |---|---|
-| Suporte a sistemas e plataformas | [Playbook de triagem](docs/playbook_triagem.md) e [base de conhecimento](docs/kb/) com diagnóstico passo a passo |
+| Suporte a sistemas e plataformas | [Playbook de triagem](docs/playbook_triagem.md) e [base de conhecimento](docs/Base_de_Conhecimento/) com diagnóstico passo a passo |
 | Análise e tratamento de dados (Excel / SQL) | [`sql/02_qualidade_dados.sql`](sql/02_qualidade_dados.sql) · [`reports/apuracao_campanha.xlsx`](reports/apuracao_campanha.xlsx) |
-| Relatórios e dashboards (Power BI) | [`reports/indicadores_suporte.xlsx`](reports/indicadores_suporte.xlsx) · [modelo Power BI com medidas DAX](docs/powerbi_modelo.md) |
+| Relatórios e dashboards (Power BI) | [`reports/indicadores_suporte.xlsx`](reports/indicadores_suporte.xlsx) · [modelo Power BI com medidas DAX](docs/powerbi_modelo.md) · [guia para montar e publicar o painel](docs/guia_powerbi.md) |
 | Gestão de chamados com SLA | [`sql/05_chamados_sla.sql`](sql/05_chamados_sla.sql) · [matriz de SLA](docs/matriz_sla.md) |
 | Extração, cruzamento e validação de dados | 7 regras de qualidade + cruzamento vendas × metas × resgates × chamados |
 | Apoio às áreas de negócio na conferência de resultados | Aba **Apuração** com fórmulas vivas conferindo o SQL linha a linha |
-| Documentar e alimentar base de conhecimento | [`docs/kb/`](docs/kb/) — 3 artigos no formato sintoma → causa → solução |
+| Documentar e alimentar base de conhecimento | [`docs/Base_de_Conhecimento/`](docs/Base_de_Conhecimento/) — 3 artigos no formato sintoma → causa → solução |
 | Identificar recorrência e propor melhoria | [Análise de causa raiz e proposta](docs/proposta_melhoria.md) |
 | Comunicação clara | [Comunicado ao cliente](docs/comunicado_cliente.md) explicando a divergência sem jargão |
 
@@ -152,7 +152,7 @@ cd case-suporte-e-dados
 pip install -r requirements.txt
 
 python data/generate_data.py     # recria a base fictícia (determinística)
-python src/pipeline.py           # carrega, valida, apura, mede SLA e gera reports/
+python src/pipeline.py           # carrega, valida, apura, mede SLA e gera reports/ e powerbi/dados/
 python -m pytest tests -q        # confere as regras contra o gabarito
 ```
 
@@ -171,7 +171,10 @@ Usa SQLite (vem com o Python), então não precisa instalar banco. Para SQL Serv
 │   ├── 04_resgates.sql         # saldo × resgates (DQ07)
 │   ├── 05_chamados_sla.sql     # SLA, backlog, reabertura
 │   └── 06_recorrencia.sql      # duplicatas × chamados, Pareto
-├── src/pipeline.py             # orquestra tudo e gera os relatórios
+├── src/
+│   ├── pipeline.py             # orquestra tudo e gera os relatórios
+│   └── export_powerbi.py       # exporta as tabelas do modelo Power BI
+├── powerbi/dados/              # CSVs prontos para importar no Power BI (fatos e dimensões)
 ├── reports/
 │   ├── apuracao_campanha.xlsx  # parâmetros, apuração com fórmulas, qualidade, impacto, resgates
 │   ├── indicadores_suporte.xlsx# visão geral, categoria, prioridade, analista, Pareto, recorrência
@@ -180,8 +183,9 @@ Usa SQLite (vem com o Python), então não precisa instalar banco. Para SQL Serv
 ├── docs/
 │   ├── playbook_triagem.md     # como receber, classificar e diagnosticar um chamado
 │   ├── matriz_sla.md           # prioridades, prazos, escalonamento
-│   ├── kb/                     # base de conhecimento
+│   ├── Base_de_Conhecimento/   # artigos BC-001 a BC-003
 │   ├── powerbi_modelo.md       # modelo estrela, medidas DAX e layout do painel
+│   ├── guia_powerbi.md         # passo a passo para montar o painel e publicar na web
 │   ├── proposta_melhoria.md    # causa raiz e plano de ação
 │   ├── comunicado_cliente.md   # retorno ao cliente sobre a divergência
 │   └── adaptacao_sql.md
@@ -191,7 +195,7 @@ Usa SQLite (vem com o Python), então não precisa instalar banco. Para SQL Serv
 ## Limitações assumidas
 
 - SLA medido em **horas corridas**; em produção normalmente é em horas úteis (ver [matriz de SLA](docs/matriz_sla.md)).
-- O dashboard está entregue como planilha + especificação do modelo Power BI (medidas DAX documentadas), para que o repositório seja verificável sem licença do Power BI.
+- O painel Power BI é montado a partir de `powerbi/dados/` seguindo o [guia](docs/guia_powerbi.md); a planilha de indicadores permite verificar os números sem licença do Power BI.
 - Os dados e a empresa são fictícios; a correlação semanal foi construída para o cenário e serve para demonstrar o método de investigação.
 
 ---

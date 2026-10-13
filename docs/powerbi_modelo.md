@@ -18,15 +18,15 @@ dParticipante ── fApuracao
       └── fOcorrenciasDQ
 ```
 
-| Tabela | Origem | Grão |
-|---|---|---|
-| fChamados | `vw_chamados_sla` | 1 linha por chamado |
-| fVendas | `stg_vendas` + coluna `motivo_bloqueio` (merge com `dq_ocorrencias` no Power Query) | 1 linha por venda |
-| fOcorrenciasDQ | `dq_ocorrencias` | 1 linha por ocorrência |
-| fApuracao | `apuracao` | 1 linha por participante |
-| fResgates | `stg_resgates` | 1 linha por resgate |
-| dParticipante | `vw_participantes` | matrícula |
-| dCalendario | gerada no Power Query | dia, com coluna `DiaUtil` |
+| Tabela         | Origem                                                                              | Grão                      |
+| -------------- | ----------------------------------------------------------------------------------- | ------------------------- |
+| fChamados      | `vw_chamados_sla`                                                                   | 1 linha por chamado       |
+| fVendas        | `stg_vendas` + coluna `motivo_bloqueio` (merge com `dq_ocorrencias` no Power Query) | 1 linha por venda         |
+| fOcorrenciasDQ | `dq_ocorrencias`                                                                    | 1 linha por ocorrência    |
+| fApuracao      | `apuracao`                                                                          | 1 linha por participante  |
+| fResgates      | `stg_resgates`                                                                      | 1 linha por resgate       |
+| dParticipante  | `vw_participantes`                                                                  | matrícula                 |
+| dCalendario    | gerada no Power Query                                                               | dia, com coluna `DiaUtil` |
 
 ## Medidas DAX
 
@@ -82,16 +82,16 @@ Variação Semanal % = DIVIDE ( [Chamados] - [Chamados Semana Anterior], [Chamad
 
 ## Páginas
 
-| Página | Para quem | Visuais |
-|---|---|---|
-| 1 · Visão geral da fila | gestão do Suporte | cartões (Chamados, Backlog, % SLA Resolução, % SLA 1ª Resposta, TMR, % Reabertura) · linha semanal de chamados · barras de SLA por prioridade |
-| 2 · Categorias e recorrência | Suporte & Dados | Pareto (colunas + linha acumulada) · matriz categoria × semana com formatação condicional · barras de reabertura |
-| 3 · Qualidade da base | Negócio / Campanhas | barras por regra de qualidade · tabela de ocorrências com filtro por lote e matrícula · cartão Faturamento Inflado |
-| 4 · Apuração | Campanhas / cliente | distribuição por faixa · pontos por regional · tabela por participante com drill-through para o extrato de vendas |
+| Página                       | Para quem           | Visuais                                                                                                                                       |
+| ---------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 · Visão geral da fila      | gestão do Suporte   | cartões (Chamados, Backlog, % SLA Resolução, % SLA 1ª Resposta, TMR, % Reabertura) · linha semanal de chamados · barras de SLA por prioridade |
+| 2 · Categorias e recorrência | Suporte & Dados     | Pareto (colunas + linha acumulada) · matriz categoria × semana com formatação condicional · barras de reabertura                              |
+| 3 · Qualidade da base        | Negócio / Campanhas | barras por regra de qualidade · tabela de ocorrências com filtro por lote e matrícula · cartão Faturamento Inflado                            |
+| 4 · Apuração                 | Campanhas / cliente | distribuição por faixa · pontos por regional · tabela por participante com drill-through para o extrato de vendas                             |
 
 ## Boas práticas aplicadas
 
 - Medidas explícitas (nada de soma implícita em coluna).
 - Parâmetros de SLA e faixas em tabelas, não em `IF` dentro da medida.
-- Drill-through da página 4 para o extrato — é o que o suporte anexa no chamado (ver [KB-001](kb/KB-001-pontuacao-divergente.md)).
+- Drill-through da página 4 para o extrato — é o que o suporte anexa no chamado (ver [BC-001](Base_de_Conhecimento/BC-001-pontuacao-divergente.md)).
 - Atualização agendada após cada importação de lote; o cartão "Ocorrências Bloqueantes" fica no topo da página 3 como semáforo.
